@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1"  thread-count = "5" parallel="classes" >
+
+	
+	
+	<listeners>
+        <listener class-name="retry.DsAlgoTransformer"/>
+  	</listeners>
+	<test  name="TestChrome"  >
+		<parameter name="browser" value="chrome" />
+		<classes>	
+
+			<class name="tests.LoginTesCases"></class>
+			<class name="tests.HomeTestCases"></class>
+			<class name="tests.ArraysTestCases"></class>
+			
+			
+		</classes>	
+		</test>
+		<test  name="TestChrome1"  >
+		<parameter name="browser" value="chrome" />
+		<classes>	
+			
+			<class name="tests.LinkedListCases"></class>
+			<class name="tests.QueueTestcases"></class>
+			<class name="tests.TreeTestCases"></class>
+			<class name="tests.GraphTestCases"></class>		
+			
+		</classes>	
+		</test>
+
+</suite>
+
+
