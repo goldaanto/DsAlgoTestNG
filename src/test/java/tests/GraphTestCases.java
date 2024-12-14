@@ -12,8 +12,6 @@ import pageObject.GraphPageObject;
 import pageObject.Homepageobject;
 
 
-
-
 public class GraphTestCases extends BaseCases {
 	
 	WebDriver driver = null;
@@ -22,7 +20,8 @@ public class GraphTestCases extends BaseCases {
 @BeforeClass
 public void graphSetup() {
 	
-	driver = getDriver();
+	//driver = getDriver();
+	driver = new ChromeDriver();
 	graphPageObject = new GraphPageObject(driver);
 	homeObject = new Homepageobject(driver);
 	login(driver);
@@ -115,7 +114,7 @@ public void user_clicks_on_graph_practice_test_link() {
 public void user_clicks_on_logout_link() {
 	driver.get(getUrlHome());
 	homeObject.clickLogout();
-	//driver.quit();
+	driver.quit();
 }
 
 

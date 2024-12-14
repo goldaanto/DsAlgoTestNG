@@ -7,52 +7,17 @@
   <test thread-count="5" parallel="classes" name="TestChrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.HomeTestCases">
-        <methods>
-          <include name="VerifyBeforeLinkedDSgetStarted"/>
-          <include name="setUp"/>
-          <include name="VerifyBeforeArraygetStarted"/>
-          <include name="tearDown"/>
-          <include name="user_clicks_on_logout_link"/>
-        </methods>
-      </class> <!-- tests.HomeTestCases -->
       <class name="tests.ArraysTestCases">
         <methods>
-          <include name="verifySortedArrayLink"/>
-          <include name="executeClicksMaxConsecutiveOnesLink"/>
-          <include name="checkApplicationArrayTryHereLink"/>
-          <include name="checkArraysPhythonTryHereLink"/>
-          <include name="checkArraysUsingTryHereLink"/>
-          <include name="clicksArraysUsingListLink"/>
-          <include name="executeClicksSearchArrayLink"/>
-          <include name="clickApplicationArrayTryHereLink"/>
-          <include name="VerifySearchArrayLink"/>
-          <include name="verifyClicksMaxConsecutiveOnesLink"/>
-          <include name="clicksApplicationsOfArrayLink"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="clicksSubBasicOperationsInListsLink"/>
-          <include name="clicksSubPracticeLink"/>
-          <include name="clicksBasicOperationsInListsLink"/>
-          <include name="clicksSubArraysInPythonLink"/>
-          <include name="clicksSubArraysUsingListLink"/>
-          <include name="clicksArraysUsingTryHereLink"/>
-          <include name="executeClicksSortedArrayLink"/>
-          <include name="checkBasicOperationsTryHereLink"/>
-          <include name="clicksBasicOperationsTryHereLink"/>
           <include name="user_clicks_on_logout_link"/>
-          <include name="executeClicksFindEvenLink"/>
-          <include name="clicksArraysPhythonTryHereLink"/>
-          <include name="clicksSubApplicationsOfArrayLink"/>
-          <include name="verifyClicksFindEvenLink"/>
+          <include name="tearDown"/>
           <include name="clickArraysInPythonLink"/>
         </methods>
       </class> <!-- tests.ArraysTestCases -->
       <class name="tests.LoginTesCases">
         <methods>
           <include name="setUp"/>
-          <include name="checkCorrectUsernamePassword"/>
-          <include name="checkEmptyUsername"/>
           <include name="checkInvalidUsernamePassword"/>
           <include name="tearDown"/>
           <include name="user_clicks_on_logout_link"/>
@@ -60,123 +25,4 @@
       </class> <!-- tests.LoginTesCases -->
     </classes>
   </test> <!-- TestChrome(failed) -->
-  <test thread-count="5" parallel="classes" name="TestChrome1(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="tests.TreeTestCases">
-        <methods>
-          <include name="user_clicks_on_traversals_link"/>
-          <include name="user_clicks_sub_binary_search_link"/>
-          <include name="executeTreeIllustrationLinkTryHere"/>
-          <include name="clicksTreeTraversalLinkTryHere"/>
-          <include name="executeTreeBinaryTraversalLinkTryHere"/>
-          <include name="executeTreeTypesBinaryLinkTryHere"/>
-          <include name="clicksTreeBinaryTreeLinkTryHere"/>
-          <include name="user_clicks_on_binary_tree_link"/>
-          <include name="user_clicks_sub_illustration_link"/>
-          <include name="user_clicks_on_tree_overview_link"/>
-          <include name="tearDown"/>
-          <include name="user_clicks_sub_types_binary_link"/>
-          <include name="user_clicks_sub_types_trees_link"/>
-          <include name="setUp"/>
-          <include name="user_clicks_on_logout_link"/>
-          <include name="user_clicks_sub_traversals_link"/>
-          <include name="user_clicks_sub_impl_binary_trees_link"/>
-          <include name="executeTreeTraversalLinkTryHere"/>
-          <include name="treeSetup"/>
-          <include name="user_clicks_on_impl_python_link"/>
-          <include name="user_clicks_on_types_binary_link"/>
-          <include name="clicksTreeTypesBinaryLinkTryHere"/>
-          <include name="executeTreeImplPythonLinkTryHere"/>
-          <include name="user_clicks_on_terminologies_link"/>
-          <include name="user_clicks_sub_binary_tree_link"/>
-          <include name="executeTreeTerminologyLinkTryHere"/>
-          <include name="clicksTreeImplPythonLinkTryHere"/>
-          <include name="executeTreeBinaryTreeLinkTryHere"/>
-          <include name="executeTreeBinarySearchLinkTryHere"/>
-          <include name="user_clicks_on_impl_binary_trees_link"/>
-          <include name="clicksTreeOverviewLinkTryHere"/>
-          <include name="user_clicks_sub_terminologies_link"/>
-          <include name="executeTreeImplBinaryLinkTryHere"/>
-          <include name="user_clicks_sub_binary_traversals_link"/>
-          <include name="user_clicks_on_impl_binary_search_link"/>
-          <include name="user_clicks_sub_appl_binary_tree_link"/>
-          <include name="executeTreeTreeApplBinaryLinkTryHere"/>
-          <include name="clicksTreeBinaryTraversalLinkTryHere"/>
-          <include name="clicksTreeApplBinaryLinkTryHere"/>
-          <include name="user_clicks_on_illustration_link"/>
-          <include name="user_clicks_on_binary_traversals_link"/>
-          <include name="executeTreeimplBinSearchLinkTryHere"/>
-          <include name="user_clicks_sub_impl_binary_search_link"/>
-          <include name="clicksTreeIllustrationLinkTryHere"/>
-          <include name="user_clicks_on_tree_practice_questions_link"/>
-          <include name="clicksTreeTypesOfLinkTryHere"/>
-          <include name="clicksTreeimplBinSearchLinkTryHere"/>
-          <include name="executeTreeTypesOfLinkTryHere"/>
-          <include name="user_clicks_on_binary_search_link"/>
-          <include name="user_clicks_on_types_trees_link"/>
-          <include name="user_clicks_on_appl_binary_tree_link"/>
-          <include name="clicksTreeTerminologyLinkTryHere"/>
-          <include name="user_clicks_sub_tree_overview_link"/>
-          <include name="clicksTreeImplBinaryLinkTryHere"/>
-          <include name="clicksTreeBinarySearchLinkTryHere"/>
-          <include name="executeTreeOverviewLinkTryHere"/>
-          <include name="user_clicks_sub_impl_python_link"/>
-        </methods>
-      </class> <!-- tests.TreeTestCases -->
-      <class name="tests.LinkedListCases">
-        <methods>
-          <include name="clicksSubTypesOfLinkedListLink"/>
-          <include name="user_clicks_on_logout_link"/>
-          <include name="clicksSubDeleteLinkTryHere"/>
-          <include name="executeSubTraversalLinkTryHere"/>
-          <include name="executeSubDeleteLinkTryHere"/>
-          <include name="clicksSubCreatingLinkedListLink"/>
-          <include name="clicksImplementLinkedLink"/>
-          <include name="setUp"/>
-          <include name="user_clicks_on_traverse_sub_linked_list_link"/>
-          <include name="clicksTraversalLinkedListLink"/>
-          <include name="clicksSubInsertLinkTryHere"/>
-          <include name="clicksSubTypesOfLinkTryHere"/>
-          <include name="clicksDeleteLinkedListLink"/>
-          <include name="executeInsertOfLinkTryHere"/>
-          <include name="user_clicks_on_sub_insert_linked_list_link"/>
-          <include name="tearDown"/>
-          <include name="clicksSubCreatingLinkTryHere"/>
-          <include name="clicksSubIntroductionLink"/>
-          <include name="clicksCreateLinkedListLink"/>
-          <include name="clicksInsertLinkedListLink"/>
-          <include name="clicksTypesLinkedLink"/>
-          <include name="clicksSubIntroductionLinkTryHere"/>
-          <include name="clicksIntroductionLink"/>
-          <include name="user_clicks_on_sub_linked_practice_question_link"/>
-          <include name="user_clicks_on_sub_implement_link"/>
-          <include name="clicksSubTraversalLinkTryHere"/>
-          <include name="clicksSubImplementLinkTryHere"/>
-          <include name="executeSubTypesOfLinkTryHere"/>
-          <include name="executeSubIntroductionLinkTryHere"/>
-          <include name="executeSubImplementLinkTryHere"/>
-          <include name="executeSubCreatingLinkTryHere"/>
-          <include name="user_clicks_on_sub_delete_linked_list_link"/>
-        </methods>
-      </class> <!-- tests.LinkedListCases -->
-      <class name="tests.GraphTestCases">
-        <methods>
-          <include name="user_clicks_on_graph_represent_link"/>
-          <include name="clicksGraphLinkTryHere"/>
-          <include name="setUp"/>
-          <include name="user_clicks_on_graph_practice_test_link"/>
-          <include name="executeGraphRepresentLinkTryHere"/>
-          <include name="user_clicks_on_logout_link"/>
-          <include name="user_clicks_on_graph_link"/>
-          <include name="tearDown"/>
-          <include name="executeGraphLinkTryHere"/>
-          <include name="clicksGraphRepresentLinkTryHere"/>
-          <include name="user_clicks_on_sub_graph_represent_link"/>
-          <include name="user_clicks_on_sub_graph_link"/>
-          <include name="graphSetup"/>
-        </methods>
-      </class> <!-- tests.GraphTestCases -->
-    </classes>
-  </test> <!-- TestChrome1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

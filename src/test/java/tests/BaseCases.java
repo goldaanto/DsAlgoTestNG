@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -18,7 +19,8 @@ import java.io.IOException;
 
 public class BaseCases {
 	
-	private static WebDriver driver = null;
+	public static WebDriver driver = null;
+	public static WebDriver driver2 = null;
 	LoginPageObject loginObject = null;
 	public ExcelReader reader = null;
 	ExcelReader xcelReader = null;
@@ -31,26 +33,28 @@ public class BaseCases {
 	public void setUp()
 	{
 		System.out.println("@BeforeSuite@BeforeSuite@BeforeSuite@BeforeSuite@BeforeSuite");
-		if(driver == null)
-		{
+		
+//			
 			driver = new ChromeDriver();
-		}
+			driver2 = new ChromeDriver();
+//		
 		System.out.println("driverdriverdriverdriverdriver"+driver);
+		System.out.println("driverdriverdriverdriverdriver"+driver2);
 		reader = new ExcelReader();			
 		urlhomestr = reader.getProperty("URLHOME");
 		username = reader.getProperty("USERNAME");
 		password = reader.getProperty("PASSWORD");
 	}
 	
-	public void setDriver(WebDriver webDriver)
-	{
-		driver = webDriver;
-	}
-	
-	public WebDriver getDriver()
-	{
-		return driver;
-	}
+//	public void setDriver(WebDriver webDriver)
+//	{
+//		driver = webDriver;
+//	}
+//	
+//	public WebDriver getDriver()
+//	{
+//		return driver;
+//	}
 	
 	public void login(WebDriver driver)
 	{
@@ -76,6 +80,7 @@ public class BaseCases {
 	
 	public void failedTestShot(String methodname)
 	{
+		
 		File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		// String screenshotBase64 = ((TakesScreenshot) element).getScreenshotAs(OutputType.BASE64);
@@ -89,11 +94,11 @@ public class BaseCases {
 		 
 	}
 	
-	@AfterSuite
+	@AfterClass
 	public void tearDown()
 	{
 		System.out.println("AfterSuiteAfterSuiteAfterSuiteAfterSuiteAfterSuiteAfterSuiteAfterSuite");
-		driver.quit();
+		//driver.quit();
 	}
 
 }

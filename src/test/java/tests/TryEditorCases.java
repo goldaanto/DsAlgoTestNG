@@ -18,7 +18,7 @@ public class TryEditorCases {
 	TryEditorPageObject pageEle = null;
 	ExcelReader xcelRead = null;
 	final String sheetName = "Sheet1";
-	ArrayList<Object> dataList = null;
+	ArrayList<ArrayList> dataList = null;
 	ArrayList<Object> data = null;	
 	
 	public void setUpTryEditor(WebDriver driver) throws IOException {	

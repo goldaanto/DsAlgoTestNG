@@ -18,7 +18,7 @@ public class TreeTestCases extends BaseCases {
 
 	@BeforeClass
 	public void treeSetup() {
-		driver = getDriver();
+		driver = new ChromeDriver();
 		treePageObject = new TreePageObject(driver);	
 		login(driver);
 	}
@@ -467,12 +467,9 @@ public class TreeTestCases extends BaseCases {
 	public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
 		homeObject.clickLogout();
-		//driver.quit();
+		driver.quit();
 	}
-
-
-
-
+	
 	
 
 

@@ -20,16 +20,17 @@ import util.ExcelReader;
 
 @Listeners(ScreeShotListener.class)
 public class ArraysTestCases extends BaseCases {
-	WebDriver driver=null;
+	
 	Arraypageobject arrayObject=null;
 	LoginPageObject loginObject = null;
 	Homepageobject homeObject = null;	
 	ExcelReader xcelReader = null;
-	
+	WebDriver driver = null;
 
 	@BeforeClass
 	public void setUp() {
-		driver = getDriver();
+		driver = new ChromeDriver();
+		
 		xcelReader = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\ArrayData.xlsx");
 		arrayObject = new Arraypageobject(driver);
 		homeObject = new Homepageobject(driver);
@@ -300,7 +301,7 @@ public class ArraysTestCases extends BaseCases {
 public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
 		homeObject.clickLogout();
-		//driver.quit();
+		driver.quit();
 }
 	
 	

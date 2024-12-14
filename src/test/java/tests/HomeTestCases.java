@@ -27,7 +27,7 @@ public class HomeTestCases extends BaseCases {
 		
 		reader = new ExcelReader();
 		urlhomestr = getUrlHome();
-		driver = getDriver();
+		driver = new ChromeDriver();
 		//login(driver);
 		driver.get(urlhomestr);
 		
@@ -180,7 +180,7 @@ public void checkGraphGetStartedButton() {
 public void user_clicks_on_logout_link() {
 		driver.get(urlhomestr);
 	homeObject.clickLogout();
-	
+	driver.quit();
 }
 
 

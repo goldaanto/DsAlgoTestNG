@@ -40,9 +40,9 @@ public class ExcelReader {
 		
 	}
 		
-	public ArrayList<Object> getData(String sheetName)
+	public ArrayList<ArrayList> getData(String sheetName)
 	{
-		ArrayList<Object> valuePairs = new ArrayList<Object>();
+		ArrayList<ArrayList> valuePairs = new ArrayList<ArrayList>();
 		
 				
 		XSSFSheet sheet = workbook.getSheet(sheetName);
@@ -61,6 +61,35 @@ public class ExcelReader {
 				
 				String value = row.getCell(j).getStringCellValue();
 				a.add(value);				
+				
+			}				
+			valuePairs.add(a);
+		}
+		
+		return valuePairs;
+	}
+	
+	public ArrayList<Object[]> getProviderData(String sheetName)
+	{
+		ArrayList<Object[]> valuePairs = new ArrayList<Object[]>();
+		
+				
+		XSSFSheet sheet = workbook.getSheet(sheetName);
+		XSSFRow firstRow = sheet.getRow(0);
+					
+		int noOfRows = sheet.getLastRowNum();
+		int noofCols = firstRow.getLastCellNum();
+				
+		for(int i=0;i<=noOfRows;i++)
+		{
+			
+			XSSFRow row  = sheet.getRow(i);
+			Object [] a = new Object[2];	
+			for(int j=0;j<noofCols;j++)
+			{			
+				
+				String value = row.getCell(j).getStringCellValue();
+				a[j]	=value;			
 				
 			}				
 			valuePairs.add(a);

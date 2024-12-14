@@ -29,12 +29,8 @@ public class LinkedListCases extends BaseCases{
 	@BeforeClass
 	public void setUp() {	
 
-		driver = getDriver();
-		if(driver == null)
-		{
-			driver = new ChromeDriver();
-			setDriver(driver);
-		}
+		driver = new ChromeDriver();
+		
 		llPageObject = new LinkedListPageObject(driver);
 		homeObject = new Homepageobject(driver);
 		login(driver);
@@ -286,7 +282,7 @@ public void clicksSubDeleteLinkTryHere() {
 public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
 		homeObject.clickLogout();
-		//driver.quit();
+		driver.quit();
 }
 	
 

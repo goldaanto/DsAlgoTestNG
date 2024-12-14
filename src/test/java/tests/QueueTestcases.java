@@ -19,7 +19,7 @@ public class QueueTestcases extends BaseCases{
 
 	@BeforeClass
 	public void queueSetup() {		
-		driver = getDriver();
+		driver = new ChromeDriver();
 		queuePageObject = new QueuePageObject(driver);
 		login(driver);	    
 	}
@@ -165,7 +165,7 @@ public class QueueTestcases extends BaseCases{
 	public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
 		homeObject.clickLogout();
-		//driver.quit();
+		driver.quit();
 	}
 
 }
