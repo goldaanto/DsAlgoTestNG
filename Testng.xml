@@ -6,6 +6,8 @@
 	
 	<listeners>
         <listener class-name="retry.DsAlgoTransformer"/>
+        <listener class-name="retry.ExtentScreeShotListener"/>
+        
   	</listeners>
 	<test  name="TestChrome"  >
 		<parameter name="browser" value="chrome" />

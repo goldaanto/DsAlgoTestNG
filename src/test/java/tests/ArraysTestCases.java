@@ -15,10 +15,10 @@ import org.testng.annotations.Test;
 import pageObject.Arraypageobject;
 import pageObject.Homepageobject;
 import pageObject.LoginPageObject;
-import retry.ScreeShotListener;
+
 import util.ExcelReader;
 
-@Listeners(ScreeShotListener.class)
+
 public class ArraysTestCases extends BaseCases {
 	
 	Arraypageobject arrayObject=null;

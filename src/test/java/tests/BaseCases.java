@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
+import io.qameta.allure.Allure;
 import pageObject.Homepageobject;
 import pageObject.LoginPageObject;
 import util.ExcelReader;
@@ -44,6 +45,8 @@ public class BaseCases {
 		urlhomestr = reader.getProperty("URLHOME");
 		username = reader.getProperty("USERNAME");
 		password = reader.getProperty("PASSWORD");
+		
+		
 	}
 	
 //	public void setDriver(WebDriver webDriver)
@@ -78,21 +81,26 @@ public class BaseCases {
 		return urlhomestr;
 	}
 	
-	public void failedTestShot(String methodname)
+	public String failedTestShot(String methodname)
 	{
-		
+		String filepath = null;
 		File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		// String screenshotBase64 = ((TakesScreenshot) element).getScreenshotAs(OutputType.BASE64);
 		
 		try {
-			FileUtils.copyFile(screenshotFile, new File("C:\\Users\\golda\\eclipse-workspacenew\\DsAlgoTestNgProject\\src\\test\\java\\util\\"+methodname+".png"));
+			Allure.addAttachment("screenshot", FileUtils.openInputStream(screenshotFile));
+			filepath = "C:\\Users\\golda\\eclipse-workspacenew\\DsAlgoTestNgProject\\src\\test\\java\\util\\"+methodname+".png";
+			FileUtils.copyFile(screenshotFile, new File(filepath));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		 
+		return filepath;
 	}
+	
+	
 	
 	@AfterClass
 	public void tearDown()

@@ -17,11 +17,11 @@ import org.testng.annotations.Test;
 
 import pageObject.Homepageobject;
 import pageObject.LoginPageObject;
-import retry.ScreeShotListener;
+
 import util.ExcelReader;
 
 
-@Listeners(ScreeShotListener.class)
+
 public class LoginTesCases extends BaseCases {
 	LoginPageObject pageObject = null;
 	ExcelReader reader = null;
@@ -120,3 +120,33 @@ public class LoginTesCases extends BaseCases {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
