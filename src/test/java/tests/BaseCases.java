@@ -34,11 +34,9 @@ public class BaseCases {
 	public void setUp()
 	{
 		System.out.println("@BeforeSuite@BeforeSuite@BeforeSuite@BeforeSuite@BeforeSuite");
+		driver = new ChromeDriver();
 		
-//			
-			driver = new ChromeDriver();
-			driver2 = new ChromeDriver();
-//		
+		
 		System.out.println("driverdriverdriverdriverdriver"+driver);
 		System.out.println("driverdriverdriverdriverdriver"+driver2);
 		reader = new ExcelReader();			
@@ -90,7 +88,8 @@ public class BaseCases {
 		
 		try {
 			Allure.addAttachment("screenshot", FileUtils.openInputStream(screenshotFile));
-			filepath = "C:\\Users\\golda\\eclipse-workspacenew\\DsAlgoTestNgProject\\src\\test\\java\\util\\"+methodname+".png";
+			filepath = System.getProperty("user.dir")+"/ScreenShots/"+methodname+".png";
+					//"C:\\Users\\golda\\eclipse-workspacenew\\DsAlgoTestNgProject\\src\\test\\java\\util\\"+methodname+".png";
 			FileUtils.copyFile(screenshotFile, new File(filepath));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

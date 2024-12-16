@@ -33,7 +33,7 @@ public class LoginTesCases extends BaseCases {
 	public void setUp()
 	{
 		System.out.println("InsideLogin InsideLoginInsideLoginInsideLogin");
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 		
 		
 		System.out.println("driver in LoginTestcases"+ driver);

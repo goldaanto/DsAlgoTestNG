@@ -19,6 +19,8 @@
       <class name="tests.LoginTesCases">
         <methods>
           <include name="setUp"/>
+          <include name="checkCorrectUsernamePassword"/>
+          <include name="checkEmptyUsername"/>
           <include name="checkInvalidUsernamePassword"/>
           <include name="tearDown"/>
           <include name="user_clicks_on_logout_link"/>
@@ -26,4 +28,26 @@
       </class> <!-- tests.LoginTesCases -->
     </classes>
   </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" parallel="classes" name="TestChrome1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.StackTestcases">
+        <methods>
+          <include name="OperationsinStackLink"/>
+          <include name="ApplicationsTryHere"/>
+          <include name="Implementationtryhere"/>
+          <include name="executeApplicationsTryHere"/>
+          <include name="Applications"/>
+          <include name="userclickspractice_question_link"/>
+          <include name="Implementation"/>
+          <include name="setUp"/>
+          <include name="executeoperationsTryHere"/>
+          <include name="tearDown"/>
+          <include name="executeImplementationTryHere"/>
+          <include name="user_clicks_on_logout_link"/>
+          <include name="operationtryhere"/>
+        </methods>
+      </class> <!-- tests.StackTestcases -->
+    </classes>
+  </test> <!-- TestChrome1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

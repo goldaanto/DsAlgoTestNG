@@ -15,22 +15,28 @@
 
 			<class name="tests.LoginTesCases"></class>
 			<class name="tests.HomeTestCases"></class>
+			<class name="tests.DSIntroTestCases"></class>
 			<class name="tests.ArraysTestCases"></class>
 			
 			
+			
 		</classes>	
-		</test>
-		<test  name="TestChrome1"  >
+		</test>		
+		
+	<test  name="TestChrome1"  >
 		<parameter name="browser" value="chrome" />
 		<classes>	
+
 			
 			<class name="tests.LinkedListCases"></class>
+			<class name="tests.StackTestcases"></class>
 			<class name="tests.QueueTestcases"></class>
 			<class name="tests.TreeTestCases"></class>
-			<class name="tests.GraphTestCases"></class>		
+			<class name="tests.GraphTestCases"></class>
+			
 			
 		</classes>	
-		</test>
+		</test>		
 
 </suite>
 
