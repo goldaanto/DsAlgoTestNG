@@ -2,16 +2,16 @@
 <testng-results retried="9" ignored="9" total="185" passed="153" failed="4" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-16T14:25:58 GMT-05:00" name="Suite1" finished-at="2024-12-16T14:27:09 GMT-05:00" duration-ms="71507">
+  <suite started-at="2024-12-16T14:55:53 GMT-05:00" name="Suite1" finished-at="2024-12-16T14:57:16 GMT-05:00" duration-ms="83005">
     <groups>
     </groups>
-    <test started-at="2024-12-16T14:25:58 GMT-05:00" name="TestChrome" finished-at="2024-12-16T14:26:27 GMT-05:00" duration-ms="29232">
+    <test started-at="2024-12-16T14:55:53 GMT-05:00" name="TestChrome" finished-at="2024-12-16T14:56:37 GMT-05:00" duration-ms="43959">
       <class name="tests.LoginTesCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:25:58 GMT-05:00" name="setUp" finished-at="2024-12-16T14:25:59 GMT-05:00" duration-ms="802" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:53 GMT-05:00" name="setUp" finished-at="2024-12-16T14:55:54 GMT-05:00" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:25:59 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:25:59 GMT-05:00" duration-ms="54" status="SKIP">
+        <test-method retried="true" signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:54 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:55:54 GMT-05:00" duration-ms="74" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
@@ -41,7 +41,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEmptyUsername -->
-        <test-method retried="true" signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:25:59 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:25:59 GMT-05:00" duration-ms="4" status="SKIP">
+        <test-method retried="true" signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:54 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:55:54 GMT-05:00" duration-ms="4" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
@@ -71,7 +71,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEmptyUsername -->
-        <test-method retried="true" signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:25:59 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:25:59 GMT-05:00" duration-ms="3" status="SKIP">
+        <test-method retried="true" signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:54 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:55:54 GMT-05:00" duration-ms="4" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
@@ -101,7 +101,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEmptyUsername -->
-        <test-method signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:25:59 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:25:59 GMT-05:00" duration-ms="4" status="FAIL">
+        <test-method signature="checkEmptyUsername()[pri:1, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:54 GMT-05:00" name="checkEmptyUsername" finished-at="2024-12-16T14:55:54 GMT-05:00" duration-ms="8" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
@@ -131,7 +131,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEmptyUsername -->
-        <test-method signature="checkInvalidUsernamePassword(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:25:59 GMT-05:00" name="checkInvalidUsernamePassword" finished-at="2024-12-16T14:25:59 GMT-05:00" duration-ms="0" status="FAIL">
+        <test-method signature="checkInvalidUsernamePassword(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:55 GMT-05:00" name="checkInvalidUsernamePassword" finished-at="2024-12-16T14:55:55 GMT-05:00" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -165,7 +165,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkInvalidUsernamePassword -->
-        <test-method retried="true" signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:26:00 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:26:00 GMT-05:00" duration-ms="69" status="SKIP">
+        <test-method retried="true" signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:55 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:55:55 GMT-05:00" duration-ms="14" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -199,7 +199,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCorrectUsernamePassword -->
-        <test-method retried="true" signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:26:00 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:26:00 GMT-05:00" duration-ms="23" status="SKIP">
+        <test-method retried="true" signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:55 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:55:55 GMT-05:00" duration-ms="5" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -233,7 +233,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCorrectUsernamePassword -->
-        <test-method retried="true" signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:26:00 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:26:00 GMT-05:00" duration-ms="3" status="SKIP">
+        <test-method retried="true" signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:55 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:55:55 GMT-05:00" duration-ms="6" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -267,7 +267,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCorrectUsernamePassword -->
-        <test-method signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:26:00 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:26:00 GMT-05:00" duration-ms="10" status="FAIL">
+        <test-method signature="checkCorrectUsernamePassword()[pri:4, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:55 GMT-05:00" name="checkCorrectUsernamePassword" finished-at="2024-12-16T14:55:55 GMT-05:00" duration-ms="3" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -301,7 +301,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCorrectUsernamePassword -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:26:00 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:00 GMT-05:00" duration-ms="4" status="FAIL">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:56 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:55:56 GMT-05:00" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
@@ -330,99 +330,99 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:26:00 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:00 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTesCases@4748a0f9]" started-at="2024-12-16T14:55:56 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:55:56 GMT-05:00" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTesCases -->
       <class name="tests.HomeTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:25:58 GMT-05:00" name="setUp" finished-at="2024-12-16T14:26:01 GMT-05:00" duration-ms="3334" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:55:53 GMT-05:00" name="setUp" finished-at="2024-12-16T14:56:06 GMT-05:00" duration-ms="13091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyBeforeLoginDSgetStarted()[pri:1, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:01 GMT-05:00" name="VerifyBeforeLoginDSgetStarted" finished-at="2024-12-16T14:26:02 GMT-05:00" duration-ms="663" status="PASS">
+        <test-method signature="VerifyBeforeLoginDSgetStarted()[pri:1, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:06 GMT-05:00" name="VerifyBeforeLoginDSgetStarted" finished-at="2024-12-16T14:56:07 GMT-05:00" duration-ms="752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeLoginDSgetStarted -->
-        <test-method signature="VerifyBeforeArraygetStarted()[pri:2, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:02 GMT-05:00" name="VerifyBeforeArraygetStarted" finished-at="2024-12-16T14:26:02 GMT-05:00" duration-ms="622" status="PASS">
+        <test-method signature="VerifyBeforeArraygetStarted()[pri:2, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:07 GMT-05:00" name="VerifyBeforeArraygetStarted" finished-at="2024-12-16T14:56:07 GMT-05:00" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeArraygetStarted -->
-        <test-method signature="VerifyBeforeLinkedDSgetStarted()[pri:3, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:02 GMT-05:00" name="VerifyBeforeLinkedDSgetStarted" finished-at="2024-12-16T14:26:03 GMT-05:00" duration-ms="426" status="PASS">
+        <test-method signature="VerifyBeforeLinkedDSgetStarted()[pri:3, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:07 GMT-05:00" name="VerifyBeforeLinkedDSgetStarted" finished-at="2024-12-16T14:56:08 GMT-05:00" duration-ms="514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeLinkedDSgetStarted -->
-        <test-method signature="VerifyBeforeStackDSgetStarted()[pri:4, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:03 GMT-05:00" name="VerifyBeforeStackDSgetStarted" finished-at="2024-12-16T14:26:03 GMT-05:00" duration-ms="490" status="PASS">
+        <test-method signature="VerifyBeforeStackDSgetStarted()[pri:4, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:08 GMT-05:00" name="VerifyBeforeStackDSgetStarted" finished-at="2024-12-16T14:56:09 GMT-05:00" duration-ms="634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeStackDSgetStarted -->
-        <test-method signature="VerifyBeforeQueueDSgetStarted()[pri:5, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:03 GMT-05:00" name="VerifyBeforeQueueDSgetStarted" finished-at="2024-12-16T14:26:04 GMT-05:00" duration-ms="505" status="PASS">
+        <test-method signature="VerifyBeforeQueueDSgetStarted()[pri:5, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:09 GMT-05:00" name="VerifyBeforeQueueDSgetStarted" finished-at="2024-12-16T14:56:09 GMT-05:00" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeQueueDSgetStarted -->
-        <test-method signature="VerifyBeforeTreeDSgetStarted()[pri:6, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:04 GMT-05:00" name="VerifyBeforeTreeDSgetStarted" finished-at="2024-12-16T14:26:04 GMT-05:00" duration-ms="561" status="PASS">
+        <test-method signature="VerifyBeforeTreeDSgetStarted()[pri:6, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:09 GMT-05:00" name="VerifyBeforeTreeDSgetStarted" finished-at="2024-12-16T14:56:10 GMT-05:00" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeTreeDSgetStarted -->
-        <test-method signature="VerifyBeforeGraphDSgetStarted()[pri:7, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:04 GMT-05:00" name="VerifyBeforeGraphDSgetStarted" finished-at="2024-12-16T14:26:05 GMT-05:00" duration-ms="484" status="PASS">
+        <test-method signature="VerifyBeforeGraphDSgetStarted()[pri:7, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:10 GMT-05:00" name="VerifyBeforeGraphDSgetStarted" finished-at="2024-12-16T14:56:11 GMT-05:00" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBeforeGraphDSgetStarted -->
-        <test-method signature="clickRegisterLink()[pri:8, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:05 GMT-05:00" name="clickRegisterLink" finished-at="2024-12-16T14:26:05 GMT-05:00" duration-ms="384" status="PASS">
+        <test-method signature="clickRegisterLink()[pri:8, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:11 GMT-05:00" name="clickRegisterLink" finished-at="2024-12-16T14:56:11 GMT-05:00" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickRegisterLink -->
-        <test-method signature="executeRegister()[pri:9, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:05 GMT-05:00" name="executeRegister" finished-at="2024-12-16T14:26:06 GMT-05:00" duration-ms="562" status="PASS">
+        <test-method signature="executeRegister()[pri:9, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:11 GMT-05:00" name="executeRegister" finished-at="2024-12-16T14:56:13 GMT-05:00" duration-ms="1515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeRegister -->
-        <test-method signature="user_clicks_on_sign_in_link()[pri:10, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:06 GMT-05:00" name="user_clicks_on_sign_in_link" finished-at="2024-12-16T14:26:07 GMT-05:00" duration-ms="1216" status="PASS">
+        <test-method signature="user_clicks_on_sign_in_link()[pri:10, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:13 GMT-05:00" name="user_clicks_on_sign_in_link" finished-at="2024-12-16T14:56:15 GMT-05:00" duration-ms="2111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sign_in_link -->
-        <test-method signature="clicksGetStartedButton()[pri:11, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:07 GMT-05:00" name="clicksGetStartedButton" finished-at="2024-12-16T14:26:07 GMT-05:00" duration-ms="412" status="PASS">
+        <test-method signature="clicksGetStartedButton()[pri:11, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:15 GMT-05:00" name="clicksGetStartedButton" finished-at="2024-12-16T14:56:16 GMT-05:00" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksGetStartedButton -->
-        <test-method signature="checkArrayGetStartedButton()[pri:12, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:07 GMT-05:00" name="checkArrayGetStartedButton" finished-at="2024-12-16T14:26:08 GMT-05:00" duration-ms="440" status="PASS">
+        <test-method signature="checkArrayGetStartedButton()[pri:12, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:16 GMT-05:00" name="checkArrayGetStartedButton" finished-at="2024-12-16T14:56:17 GMT-05:00" duration-ms="1020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkArrayGetStartedButton -->
-        <test-method signature="checkLinkedGetStartedButton()[pri:13, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:08 GMT-05:00" name="checkLinkedGetStartedButton" finished-at="2024-12-16T14:26:08 GMT-05:00" duration-ms="439" status="PASS">
+        <test-method signature="checkLinkedGetStartedButton()[pri:13, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:17 GMT-05:00" name="checkLinkedGetStartedButton" finished-at="2024-12-16T14:56:18 GMT-05:00" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLinkedGetStartedButton -->
-        <test-method signature="checkStackGetStartedButton()[pri:14, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:08 GMT-05:00" name="checkStackGetStartedButton" finished-at="2024-12-16T14:26:09 GMT-05:00" duration-ms="554" status="PASS">
+        <test-method signature="checkStackGetStartedButton()[pri:14, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:18 GMT-05:00" name="checkStackGetStartedButton" finished-at="2024-12-16T14:56:18 GMT-05:00" duration-ms="586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStackGetStartedButton -->
-        <test-method signature="checkQueueGetStartedButton()[pri:15, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:09 GMT-05:00" name="checkQueueGetStartedButton" finished-at="2024-12-16T14:26:10 GMT-05:00" duration-ms="623" status="PASS">
+        <test-method signature="checkQueueGetStartedButton()[pri:15, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:18 GMT-05:00" name="checkQueueGetStartedButton" finished-at="2024-12-16T14:56:19 GMT-05:00" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkQueueGetStartedButton -->
-        <test-method signature="checkTreeGetStartedButton()[pri:16, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:10 GMT-05:00" name="checkTreeGetStartedButton" finished-at="2024-12-16T14:26:10 GMT-05:00" duration-ms="564" status="PASS">
+        <test-method signature="checkTreeGetStartedButton()[pri:16, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:19 GMT-05:00" name="checkTreeGetStartedButton" finished-at="2024-12-16T14:56:20 GMT-05:00" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTreeGetStartedButton -->
-        <test-method signature="checkGraphGetStartedButton()[pri:17, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:10 GMT-05:00" name="checkGraphGetStartedButton" finished-at="2024-12-16T14:26:11 GMT-05:00" duration-ms="465" status="PASS">
+        <test-method signature="checkGraphGetStartedButton()[pri:17, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:20 GMT-05:00" name="checkGraphGetStartedButton" finished-at="2024-12-16T14:56:20 GMT-05:00" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGraphGetStartedButton -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:11 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:12 GMT-05:00" duration-ms="997" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:20 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:56:21 GMT-05:00" duration-ms="952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:26:12 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:12 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTestCases@7e3181aa]" started-at="2024-12-16T14:56:21 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:56:21 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HomeTestCases -->
       <class name="tests.ArraysTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:25:58 GMT-05:00" name="setUp" finished-at="2024-12-16T14:26:03 GMT-05:00" duration-ms="5024" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:55:53 GMT-05:00" name="setUp" finished-at="2024-12-16T14:56:09 GMT-05:00" duration-ms="15690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:03 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:26:04 GMT-05:00" duration-ms="1424" status="SKIP">
+        <test-method retried="true" signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:09 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:56:11 GMT-05:00" duration-ms="2056" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Arraysw in Python] but found [Arrays in Python]]]>
@@ -458,7 +458,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArraysInPythonLink -->
-        <test-method retried="true" signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:04 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:26:05 GMT-05:00" duration-ms="1097" status="SKIP">
+        <test-method retried="true" signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:11 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:56:13 GMT-05:00" duration-ms="2480" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Arraysw in Python] but found [Arrays in Python]]]>
@@ -494,7 +494,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArraysInPythonLink -->
-        <test-method retried="true" signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:05 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:26:06 GMT-05:00" duration-ms="753" status="SKIP">
+        <test-method retried="true" signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:13 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:56:16 GMT-05:00" duration-ms="2570" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Arraysw in Python] but found [Arrays in Python]]]>
@@ -530,7 +530,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArraysInPythonLink -->
-        <test-method signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:06 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:26:07 GMT-05:00" duration-ms="802" status="FAIL">
+        <test-method signature="clickArraysInPythonLink()[pri:1, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:16 GMT-05:00" name="clickArraysInPythonLink" finished-at="2024-12-16T14:56:18 GMT-05:00" duration-ms="1719" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Arraysw in Python] but found [Arrays in Python]]]>
@@ -566,145 +566,145 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArraysInPythonLink -->
-        <test-method signature="clicksSubArraysInPythonLink()[pri:2, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:07 GMT-05:00" name="clicksSubArraysInPythonLink" finished-at="2024-12-16T14:26:07 GMT-05:00" duration-ms="330" status="PASS">
+        <test-method signature="clicksSubArraysInPythonLink()[pri:2, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:18 GMT-05:00" name="clicksSubArraysInPythonLink" finished-at="2024-12-16T14:56:18 GMT-05:00" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubArraysInPythonLink -->
-        <test-method signature="clicksArraysPhythonTryHereLink()[pri:3, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:07 GMT-05:00" name="clicksArraysPhythonTryHereLink" finished-at="2024-12-16T14:26:08 GMT-05:00" duration-ms="649" status="PASS">
+        <test-method signature="clicksArraysPhythonTryHereLink()[pri:3, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:18 GMT-05:00" name="clicksArraysPhythonTryHereLink" finished-at="2024-12-16T14:56:19 GMT-05:00" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksArraysPhythonTryHereLink -->
-        <test-method signature="checkArraysPhythonTryHereLink()[pri:4, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:08 GMT-05:00" name="checkArraysPhythonTryHereLink" finished-at="2024-12-16T14:26:09 GMT-05:00" duration-ms="522" status="PASS">
+        <test-method signature="checkArraysPhythonTryHereLink()[pri:4, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:19 GMT-05:00" name="checkArraysPhythonTryHereLink" finished-at="2024-12-16T14:56:20 GMT-05:00" duration-ms="970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkArraysPhythonTryHereLink -->
-        <test-method signature="clicksArraysUsingListLink()[pri:5, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:09 GMT-05:00" name="clicksArraysUsingListLink" finished-at="2024-12-16T14:26:10 GMT-05:00" duration-ms="1155" status="PASS">
+        <test-method signature="clicksArraysUsingListLink()[pri:5, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:20 GMT-05:00" name="clicksArraysUsingListLink" finished-at="2024-12-16T14:56:21 GMT-05:00" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksArraysUsingListLink -->
-        <test-method signature="clicksSubArraysUsingListLink()[pri:6, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:10 GMT-05:00" name="clicksSubArraysUsingListLink" finished-at="2024-12-16T14:26:10 GMT-05:00" duration-ms="391" status="PASS">
+        <test-method signature="clicksSubArraysUsingListLink()[pri:6, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:21 GMT-05:00" name="clicksSubArraysUsingListLink" finished-at="2024-12-16T14:56:22 GMT-05:00" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubArraysUsingListLink -->
-        <test-method signature="clicksArraysUsingTryHereLink()[pri:7, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:10 GMT-05:00" name="clicksArraysUsingTryHereLink" finished-at="2024-12-16T14:26:10 GMT-05:00" duration-ms="376" status="PASS">
+        <test-method signature="clicksArraysUsingTryHereLink()[pri:7, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:22 GMT-05:00" name="clicksArraysUsingTryHereLink" finished-at="2024-12-16T14:56:22 GMT-05:00" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksArraysUsingTryHereLink -->
-        <test-method signature="checkArraysUsingTryHereLink()[pri:8, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:10 GMT-05:00" name="checkArraysUsingTryHereLink" finished-at="2024-12-16T14:26:11 GMT-05:00" duration-ms="520" status="PASS">
+        <test-method signature="checkArraysUsingTryHereLink()[pri:8, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:22 GMT-05:00" name="checkArraysUsingTryHereLink" finished-at="2024-12-16T14:56:22 GMT-05:00" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkArraysUsingTryHereLink -->
-        <test-method signature="clicksBasicOperationsInListsLink()[pri:9, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:11 GMT-05:00" name="clicksBasicOperationsInListsLink" finished-at="2024-12-16T14:26:12 GMT-05:00" duration-ms="1067" status="PASS">
+        <test-method signature="clicksBasicOperationsInListsLink()[pri:9, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:22 GMT-05:00" name="clicksBasicOperationsInListsLink" finished-at="2024-12-16T14:56:23 GMT-05:00" duration-ms="833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksBasicOperationsInListsLink -->
-        <test-method signature="clicksSubBasicOperationsInListsLink()[pri:10, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:12 GMT-05:00" name="clicksSubBasicOperationsInListsLink" finished-at="2024-12-16T14:26:12 GMT-05:00" duration-ms="383" status="PASS">
+        <test-method signature="clicksSubBasicOperationsInListsLink()[pri:10, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:23 GMT-05:00" name="clicksSubBasicOperationsInListsLink" finished-at="2024-12-16T14:56:24 GMT-05:00" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubBasicOperationsInListsLink -->
-        <test-method signature="clicksBasicOperationsTryHereLink()[pri:11, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:12 GMT-05:00" name="clicksBasicOperationsTryHereLink" finished-at="2024-12-16T14:26:13 GMT-05:00" duration-ms="382" status="PASS">
+        <test-method signature="clicksBasicOperationsTryHereLink()[pri:11, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:24 GMT-05:00" name="clicksBasicOperationsTryHereLink" finished-at="2024-12-16T14:56:24 GMT-05:00" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksBasicOperationsTryHereLink -->
-        <test-method signature="checkBasicOperationsTryHereLink()[pri:12, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:13 GMT-05:00" name="checkBasicOperationsTryHereLink" finished-at="2024-12-16T14:26:13 GMT-05:00" duration-ms="476" status="PASS">
+        <test-method signature="checkBasicOperationsTryHereLink()[pri:12, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:24 GMT-05:00" name="checkBasicOperationsTryHereLink" finished-at="2024-12-16T14:56:24 GMT-05:00" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBasicOperationsTryHereLink -->
-        <test-method signature="clicksApplicationsOfArrayLink()[pri:13, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:13 GMT-05:00" name="clicksApplicationsOfArrayLink" finished-at="2024-12-16T14:26:15 GMT-05:00" duration-ms="1528" status="PASS">
+        <test-method signature="clicksApplicationsOfArrayLink()[pri:13, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:24 GMT-05:00" name="clicksApplicationsOfArrayLink" finished-at="2024-12-16T14:56:25 GMT-05:00" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksApplicationsOfArrayLink -->
-        <test-method signature="clicksSubApplicationsOfArrayLink()[pri:14, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:15 GMT-05:00" name="clicksSubApplicationsOfArrayLink" finished-at="2024-12-16T14:26:15 GMT-05:00" duration-ms="331" status="PASS">
+        <test-method signature="clicksSubApplicationsOfArrayLink()[pri:14, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:25 GMT-05:00" name="clicksSubApplicationsOfArrayLink" finished-at="2024-12-16T14:56:26 GMT-05:00" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubApplicationsOfArrayLink -->
-        <test-method signature="clickApplicationArrayTryHereLink()[pri:15, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:15 GMT-05:00" name="clickApplicationArrayTryHereLink" finished-at="2024-12-16T14:26:16 GMT-05:00" duration-ms="360" status="PASS">
+        <test-method signature="clickApplicationArrayTryHereLink()[pri:15, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:26 GMT-05:00" name="clickApplicationArrayTryHereLink" finished-at="2024-12-16T14:56:26 GMT-05:00" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickApplicationArrayTryHereLink -->
-        <test-method signature="checkApplicationArrayTryHereLink()[pri:16, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:16 GMT-05:00" name="checkApplicationArrayTryHereLink" finished-at="2024-12-16T14:26:16 GMT-05:00" duration-ms="547" status="PASS">
+        <test-method signature="checkApplicationArrayTryHereLink()[pri:16, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:26 GMT-05:00" name="checkApplicationArrayTryHereLink" finished-at="2024-12-16T14:56:27 GMT-05:00" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkApplicationArrayTryHereLink -->
-        <test-method signature="clicksSubPracticeLink()[pri:17, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:16 GMT-05:00" name="clicksSubPracticeLink" finished-at="2024-12-16T14:26:18 GMT-05:00" duration-ms="1471" status="PASS">
+        <test-method signature="clicksSubPracticeLink()[pri:17, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:27 GMT-05:00" name="clicksSubPracticeLink" finished-at="2024-12-16T14:56:28 GMT-05:00" duration-ms="1052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubPracticeLink -->
-        <test-method signature="VerifySearchArrayLink()[pri:18, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:18 GMT-05:00" name="VerifySearchArrayLink" finished-at="2024-12-16T14:26:18 GMT-05:00" duration-ms="400" status="PASS">
+        <test-method signature="VerifySearchArrayLink()[pri:18, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:28 GMT-05:00" name="VerifySearchArrayLink" finished-at="2024-12-16T14:56:28 GMT-05:00" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchArrayLink -->
-        <test-method signature="executeClicksSearchArrayLink()[pri:19, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:18 GMT-05:00" name="executeClicksSearchArrayLink" finished-at="2024-12-16T14:26:19 GMT-05:00" duration-ms="579" status="PASS">
+        <test-method signature="executeClicksSearchArrayLink()[pri:19, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:28 GMT-05:00" name="executeClicksSearchArrayLink" finished-at="2024-12-16T14:56:29 GMT-05:00" duration-ms="888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeClicksSearchArrayLink -->
-        <test-method signature="verifyClicksMaxConsecutiveOnesLink()[pri:20, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:19 GMT-05:00" name="verifyClicksMaxConsecutiveOnesLink" finished-at="2024-12-16T14:26:20 GMT-05:00" duration-ms="1597" status="PASS">
+        <test-method signature="verifyClicksMaxConsecutiveOnesLink()[pri:20, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:29 GMT-05:00" name="verifyClicksMaxConsecutiveOnesLink" finished-at="2024-12-16T14:56:30 GMT-05:00" duration-ms="1480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClicksMaxConsecutiveOnesLink -->
-        <test-method signature="executeClicksMaxConsecutiveOnesLink()[pri:21, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:20 GMT-05:00" name="executeClicksMaxConsecutiveOnesLink" finished-at="2024-12-16T14:26:21 GMT-05:00" duration-ms="601" status="PASS">
+        <test-method signature="executeClicksMaxConsecutiveOnesLink()[pri:21, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:30 GMT-05:00" name="executeClicksMaxConsecutiveOnesLink" finished-at="2024-12-16T14:56:31 GMT-05:00" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeClicksMaxConsecutiveOnesLink -->
-        <test-method signature="verifyClicksFindEvenLink()[pri:22, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:21 GMT-05:00" name="verifyClicksFindEvenLink" finished-at="2024-12-16T14:26:22 GMT-05:00" duration-ms="1605" status="PASS">
+        <test-method signature="verifyClicksFindEvenLink()[pri:22, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:31 GMT-05:00" name="verifyClicksFindEvenLink" finished-at="2024-12-16T14:56:33 GMT-05:00" duration-ms="1639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClicksFindEvenLink -->
-        <test-method signature="executeClicksFindEvenLink()[pri:23, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:22 GMT-05:00" name="executeClicksFindEvenLink" finished-at="2024-12-16T14:26:23 GMT-05:00" duration-ms="768" status="PASS">
+        <test-method signature="executeClicksFindEvenLink()[pri:23, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:33 GMT-05:00" name="executeClicksFindEvenLink" finished-at="2024-12-16T14:56:34 GMT-05:00" duration-ms="762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeClicksFindEvenLink -->
-        <test-method signature="verifySortedArrayLink()[pri:24, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:23 GMT-05:00" name="verifySortedArrayLink" finished-at="2024-12-16T14:26:25 GMT-05:00" duration-ms="1802" status="PASS">
+        <test-method signature="verifySortedArrayLink()[pri:24, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:34 GMT-05:00" name="verifySortedArrayLink" finished-at="2024-12-16T14:56:35 GMT-05:00" duration-ms="1433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortedArrayLink -->
-        <test-method signature="executeClicksSortedArrayLink()[pri:25, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:25 GMT-05:00" name="executeClicksSortedArrayLink" finished-at="2024-12-16T14:26:26 GMT-05:00" duration-ms="798" status="PASS">
+        <test-method signature="executeClicksSortedArrayLink()[pri:25, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:35 GMT-05:00" name="executeClicksSortedArrayLink" finished-at="2024-12-16T14:56:36 GMT-05:00" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeClicksSortedArrayLink -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:26 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:27 GMT-05:00" duration-ms="930" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:36 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:56:37 GMT-05:00" duration-ms="873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:26:27 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:27 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ArraysTestCases@142269f2]" started-at="2024-12-16T14:56:37 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:56:37 GMT-05:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ArraysTestCases -->
       <class name="tests.DSIntroTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:25:58 GMT-05:00" name="setUp" finished-at="2024-12-16T14:26:03 GMT-05:00" duration-ms="5496" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:55:53 GMT-05:00" name="setUp" finished-at="2024-12-16T14:56:09 GMT-05:00" duration-ms="16071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DSintro()[pri:1, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:26:03 GMT-05:00" name="DSintro" finished-at="2024-12-16T14:26:04 GMT-05:00" duration-ms="699" status="PASS">
+        <test-method signature="DSintro()[pri:1, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:56:09 GMT-05:00" name="DSintro" finished-at="2024-12-16T14:56:11 GMT-05:00" duration-ms="1422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DSintro -->
-        <test-method signature="TimeComplexityLink()[pri:2, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:26:04 GMT-05:00" name="TimeComplexityLink" finished-at="2024-12-16T14:26:05 GMT-05:00" duration-ms="1153" status="PASS">
+        <test-method signature="TimeComplexityLink()[pri:2, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:56:11 GMT-05:00" name="TimeComplexityLink" finished-at="2024-12-16T14:56:12 GMT-05:00" duration-ms="1750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TimeComplexityLink -->
-        <test-method signature="DSintrotryhere()[pri:3, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:26:05 GMT-05:00" name="DSintrotryhere" finished-at="2024-12-16T14:26:06 GMT-05:00" duration-ms="711" status="PASS">
+        <test-method signature="DSintrotryhere()[pri:3, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:56:12 GMT-05:00" name="DSintrotryhere" finished-at="2024-12-16T14:56:14 GMT-05:00" duration-ms="1910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DSintrotryhere -->
-        <test-method signature="executeImplementationTryHere()[pri:4, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:26:06 GMT-05:00" name="executeImplementationTryHere" finished-at="2024-12-16T14:26:06 GMT-05:00" duration-ms="645" status="PASS">
+        <test-method signature="executeImplementationTryHere()[pri:4, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:56:14 GMT-05:00" name="executeImplementationTryHere" finished-at="2024-12-16T14:56:15 GMT-05:00" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeImplementationTryHere -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:26:06 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:07 GMT-05:00" duration-ms="632" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:56:15 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:56:17 GMT-05:00" duration-ms="1530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:26:07 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:07 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DSIntroTestCases@253d9f73]" started-at="2024-12-16T14:56:17 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:56:17 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DSIntroTestCases -->
     </test> <!-- TestChrome -->
-    <test started-at="2024-12-16T14:26:28 GMT-05:00" name="TestChrome1" finished-at="2024-12-16T14:27:09 GMT-05:00" duration-ms="41461">
+    <test started-at="2024-12-16T14:56:38 GMT-05:00" name="TestChrome1" finished-at="2024-12-16T14:57:16 GMT-05:00" duration-ms="38277">
       <class name="tests.StackTestcases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="setUp" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="setUp" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="5" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -733,7 +733,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="OperationsinStackLink()[pri:1, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="OperationsinStackLink" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="OperationsinStackLink()[pri:1, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="OperationsinStackLink" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -762,7 +762,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OperationsinStackLink -->
-        <test-method signature="operationtryhere()[pri:2, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="operationtryhere" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="operationtryhere()[pri:2, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="operationtryhere" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -791,7 +791,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- operationtryhere -->
-        <test-method signature="executeoperationsTryHere()[pri:3, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="executeoperationsTryHere" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="executeoperationsTryHere()[pri:3, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="executeoperationsTryHere" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -820,7 +820,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeoperationsTryHere -->
-        <test-method signature="Implementation()[pri:4, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="Implementation" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="Implementation()[pri:4, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="Implementation" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -849,7 +849,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Implementation -->
-        <test-method signature="Implementationtryhere()[pri:5, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="Implementationtryhere" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="Implementationtryhere()[pri:5, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="Implementationtryhere" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -878,7 +878,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Implementationtryhere -->
-        <test-method signature="executeImplementationTryHere()[pri:6, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="executeImplementationTryHere" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="executeImplementationTryHere()[pri:6, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="executeImplementationTryHere" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -907,7 +907,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeImplementationTryHere -->
-        <test-method signature="Applications()[pri:7, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="Applications" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="Applications()[pri:7, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="Applications" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -936,7 +936,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applications -->
-        <test-method signature="ApplicationsTryHere()[pri:8, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="ApplicationsTryHere" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="1" status="SKIP">
+        <test-method signature="ApplicationsTryHere()[pri:8, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="ApplicationsTryHere" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -965,7 +965,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicationsTryHere -->
-        <test-method signature="executeApplicationsTryHere()[pri:9, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="executeApplicationsTryHere" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="executeApplicationsTryHere()[pri:9, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="executeApplicationsTryHere" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="1" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -994,7 +994,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeApplicationsTryHere -->
-        <test-method signature="userclickspractice_question_link()[pri:10, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="userclickspractice_question_link" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method signature="userclickspractice_question_link()[pri:10, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="userclickspractice_question_link" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "driver" is null]]>
@@ -1023,503 +1023,503 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userclickspractice_question_link -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:26:28 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:28 GMT-05:00" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StackTestcases@5b619d14]" started-at="2024-12-16T14:56:38 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:56:38 GMT-05:00" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.StackTestcases -->
       <class name="tests.LinkedListCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:28 GMT-05:00" name="setUp" finished-at="2024-12-16T14:26:34 GMT-05:00" duration-ms="6137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:38 GMT-05:00" name="setUp" finished-at="2024-12-16T14:56:44 GMT-05:00" duration-ms="6302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clicksIntroductionLink()[pri:1, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:34 GMT-05:00" name="clicksIntroductionLink" finished-at="2024-12-16T14:26:35 GMT-05:00" duration-ms="1629" status="PASS">
+        <test-method signature="clicksIntroductionLink()[pri:1, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:44 GMT-05:00" name="clicksIntroductionLink" finished-at="2024-12-16T14:56:45 GMT-05:00" duration-ms="1387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksIntroductionLink -->
-        <test-method signature="clicksSubIntroductionLink()[pri:2, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:35 GMT-05:00" name="clicksSubIntroductionLink" finished-at="2024-12-16T14:26:36 GMT-05:00" duration-ms="516" status="PASS">
+        <test-method signature="clicksSubIntroductionLink()[pri:2, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:45 GMT-05:00" name="clicksSubIntroductionLink" finished-at="2024-12-16T14:56:46 GMT-05:00" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubIntroductionLink -->
-        <test-method signature="clicksSubIntroductionLinkTryHere()[pri:3, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:36 GMT-05:00" name="clicksSubIntroductionLinkTryHere" finished-at="2024-12-16T14:26:37 GMT-05:00" duration-ms="966" status="PASS">
+        <test-method signature="clicksSubIntroductionLinkTryHere()[pri:3, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:46 GMT-05:00" name="clicksSubIntroductionLinkTryHere" finished-at="2024-12-16T14:56:47 GMT-05:00" duration-ms="1141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubIntroductionLinkTryHere -->
-        <test-method signature="executeSubIntroductionLinkTryHere()[pri:4, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:37 GMT-05:00" name="executeSubIntroductionLinkTryHere" finished-at="2024-12-16T14:26:38 GMT-05:00" duration-ms="637" status="PASS">
+        <test-method signature="executeSubIntroductionLinkTryHere()[pri:4, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:47 GMT-05:00" name="executeSubIntroductionLinkTryHere" finished-at="2024-12-16T14:56:48 GMT-05:00" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSubIntroductionLinkTryHere -->
-        <test-method signature="clicksCreateLinkedListLink()[pri:5, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:38 GMT-05:00" name="clicksCreateLinkedListLink" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="1222" status="PASS">
+        <test-method signature="clicksCreateLinkedListLink()[pri:5, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:48 GMT-05:00" name="clicksCreateLinkedListLink" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="1141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksCreateLinkedListLink -->
-        <test-method signature="clicksSubCreatingLinkedListLink()[pri:6, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:39 GMT-05:00" name="clicksSubCreatingLinkedListLink" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="374" status="PASS">
+        <test-method signature="clicksSubCreatingLinkedListLink()[pri:6, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:49 GMT-05:00" name="clicksSubCreatingLinkedListLink" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubCreatingLinkedListLink -->
-        <test-method signature="clicksSubCreatingLinkTryHere()[pri:7, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:39 GMT-05:00" name="clicksSubCreatingLinkTryHere" finished-at="2024-12-16T14:26:40 GMT-05:00" duration-ms="462" status="PASS">
+        <test-method signature="clicksSubCreatingLinkTryHere()[pri:7, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:49 GMT-05:00" name="clicksSubCreatingLinkTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubCreatingLinkTryHere -->
-        <test-method signature="executeSubCreatingLinkTryHere()[pri:8, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:40 GMT-05:00" name="executeSubCreatingLinkTryHere" finished-at="2024-12-16T14:26:40 GMT-05:00" duration-ms="650" status="PASS">
+        <test-method signature="executeSubCreatingLinkTryHere()[pri:8, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:50 GMT-05:00" name="executeSubCreatingLinkTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSubCreatingLinkTryHere -->
-        <test-method signature="clicksTypesLinkedLink()[pri:9, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:40 GMT-05:00" name="clicksTypesLinkedLink" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="1379" status="PASS">
+        <test-method signature="clicksTypesLinkedLink()[pri:9, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:50 GMT-05:00" name="clicksTypesLinkedLink" finished-at="2024-12-16T14:56:51 GMT-05:00" duration-ms="1246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTypesLinkedLink -->
-        <test-method signature="clicksSubTypesOfLinkedListLink()[pri:10, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:42 GMT-05:00" name="clicksSubTypesOfLinkedListLink" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="458" status="PASS">
+        <test-method signature="clicksSubTypesOfLinkedListLink()[pri:10, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:51 GMT-05:00" name="clicksSubTypesOfLinkedListLink" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubTypesOfLinkedListLink -->
-        <test-method signature="clicksSubTypesOfLinkTryHere()[pri:11, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:42 GMT-05:00" name="clicksSubTypesOfLinkTryHere" finished-at="2024-12-16T14:26:43 GMT-05:00" duration-ms="455" status="PASS">
+        <test-method signature="clicksSubTypesOfLinkTryHere()[pri:11, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:52 GMT-05:00" name="clicksSubTypesOfLinkTryHere" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubTypesOfLinkTryHere -->
-        <test-method signature="executeSubTypesOfLinkTryHere()[pri:12, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:43 GMT-05:00" name="executeSubTypesOfLinkTryHere" finished-at="2024-12-16T14:26:43 GMT-05:00" duration-ms="716" status="PASS">
+        <test-method signature="executeSubTypesOfLinkTryHere()[pri:12, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:52 GMT-05:00" name="executeSubTypesOfLinkTryHere" finished-at="2024-12-16T14:56:53 GMT-05:00" duration-ms="571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSubTypesOfLinkTryHere -->
-        <test-method signature="clicksImplementLinkedLink()[pri:13, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:43 GMT-05:00" name="clicksImplementLinkedLink" finished-at="2024-12-16T14:26:44 GMT-05:00" duration-ms="1169" status="PASS">
+        <test-method signature="clicksImplementLinkedLink()[pri:13, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:53 GMT-05:00" name="clicksImplementLinkedLink" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksImplementLinkedLink -->
-        <test-method signature="user_clicks_on_sub_implement_link()[pri:14, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:44 GMT-05:00" name="user_clicks_on_sub_implement_link" finished-at="2024-12-16T14:26:45 GMT-05:00" duration-ms="323" status="PASS">
+        <test-method signature="user_clicks_on_sub_implement_link()[pri:14, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:54 GMT-05:00" name="user_clicks_on_sub_implement_link" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sub_implement_link -->
-        <test-method signature="clicksSubImplementLinkTryHere()[pri:15, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:45 GMT-05:00" name="clicksSubImplementLinkTryHere" finished-at="2024-12-16T14:26:45 GMT-05:00" duration-ms="338" status="PASS">
+        <test-method signature="clicksSubImplementLinkTryHere()[pri:15, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:54 GMT-05:00" name="clicksSubImplementLinkTryHere" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubImplementLinkTryHere -->
-        <test-method signature="executeSubImplementLinkTryHere()[pri:16, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:45 GMT-05:00" name="executeSubImplementLinkTryHere" finished-at="2024-12-16T14:26:46 GMT-05:00" duration-ms="475" status="PASS">
+        <test-method signature="executeSubImplementLinkTryHere()[pri:16, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:54 GMT-05:00" name="executeSubImplementLinkTryHere" finished-at="2024-12-16T14:56:55 GMT-05:00" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSubImplementLinkTryHere -->
-        <test-method signature="clicksTraversalLinkedListLink()[pri:17, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:46 GMT-05:00" name="clicksTraversalLinkedListLink" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="1058" status="PASS">
+        <test-method signature="clicksTraversalLinkedListLink()[pri:17, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:55 GMT-05:00" name="clicksTraversalLinkedListLink" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTraversalLinkedListLink -->
-        <test-method signature="user_clicks_on_traverse_sub_linked_list_link()[pri:18, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:47 GMT-05:00" name="user_clicks_on_traverse_sub_linked_list_link" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="301" status="PASS">
+        <test-method signature="user_clicks_on_traverse_sub_linked_list_link()[pri:18, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:56 GMT-05:00" name="user_clicks_on_traverse_sub_linked_list_link" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_traverse_sub_linked_list_link -->
-        <test-method signature="clicksSubTraversalLinkTryHere()[pri:19, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:47 GMT-05:00" name="clicksSubTraversalLinkTryHere" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="305" status="PASS">
+        <test-method signature="clicksSubTraversalLinkTryHere()[pri:19, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:56 GMT-05:00" name="clicksSubTraversalLinkTryHere" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubTraversalLinkTryHere -->
-        <test-method signature="executeSubTraversalLinkTryHere()[pri:20, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:47 GMT-05:00" name="executeSubTraversalLinkTryHere" finished-at="2024-12-16T14:26:48 GMT-05:00" duration-ms="470" status="PASS">
+        <test-method signature="executeSubTraversalLinkTryHere()[pri:20, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:56 GMT-05:00" name="executeSubTraversalLinkTryHere" finished-at="2024-12-16T14:56:57 GMT-05:00" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSubTraversalLinkTryHere -->
-        <test-method signature="clicksInsertLinkedListLink()[pri:21, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:48 GMT-05:00" name="clicksInsertLinkedListLink" finished-at="2024-12-16T14:26:49 GMT-05:00" duration-ms="889" status="PASS">
+        <test-method signature="clicksInsertLinkedListLink()[pri:21, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:57 GMT-05:00" name="clicksInsertLinkedListLink" finished-at="2024-12-16T14:56:58 GMT-05:00" duration-ms="808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksInsertLinkedListLink -->
-        <test-method signature="user_clicks_on_sub_insert_linked_list_link()[pri:22, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:49 GMT-05:00" name="user_clicks_on_sub_insert_linked_list_link" finished-at="2024-12-16T14:26:49 GMT-05:00" duration-ms="329" status="PASS">
+        <test-method signature="user_clicks_on_sub_insert_linked_list_link()[pri:22, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:58 GMT-05:00" name="user_clicks_on_sub_insert_linked_list_link" finished-at="2024-12-16T14:56:58 GMT-05:00" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sub_insert_linked_list_link -->
-        <test-method signature="clicksSubInsertLinkTryHere()[pri:23, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:49 GMT-05:00" name="clicksSubInsertLinkTryHere" finished-at="2024-12-16T14:26:49 GMT-05:00" duration-ms="346" status="PASS">
+        <test-method signature="clicksSubInsertLinkTryHere()[pri:23, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:58 GMT-05:00" name="clicksSubInsertLinkTryHere" finished-at="2024-12-16T14:56:58 GMT-05:00" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubInsertLinkTryHere -->
-        <test-method signature="executeInsertOfLinkTryHere()[pri:24, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:49 GMT-05:00" name="executeInsertOfLinkTryHere" finished-at="2024-12-16T14:26:50 GMT-05:00" duration-ms="441" status="PASS">
+        <test-method signature="executeInsertOfLinkTryHere()[pri:24, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:58 GMT-05:00" name="executeInsertOfLinkTryHere" finished-at="2024-12-16T14:56:59 GMT-05:00" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeInsertOfLinkTryHere -->
-        <test-method signature="clicksDeleteLinkedListLink()[pri:25, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:50 GMT-05:00" name="clicksDeleteLinkedListLink" finished-at="2024-12-16T14:26:51 GMT-05:00" duration-ms="858" status="PASS">
+        <test-method signature="clicksDeleteLinkedListLink()[pri:25, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:56:59 GMT-05:00" name="clicksDeleteLinkedListLink" finished-at="2024-12-16T14:57:00 GMT-05:00" duration-ms="881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksDeleteLinkedListLink -->
-        <test-method signature="user_clicks_on_sub_delete_linked_list_link()[pri:26, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:51 GMT-05:00" name="user_clicks_on_sub_delete_linked_list_link" finished-at="2024-12-16T14:26:51 GMT-05:00" duration-ms="329" status="PASS">
+        <test-method signature="user_clicks_on_sub_delete_linked_list_link()[pri:26, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:57:00 GMT-05:00" name="user_clicks_on_sub_delete_linked_list_link" finished-at="2024-12-16T14:57:00 GMT-05:00" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sub_delete_linked_list_link -->
-        <test-method signature="clicksSubDeleteLinkTryHere()[pri:27, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:51 GMT-05:00" name="clicksSubDeleteLinkTryHere" finished-at="2024-12-16T14:26:51 GMT-05:00" duration-ms="345" status="PASS">
+        <test-method signature="clicksSubDeleteLinkTryHere()[pri:27, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:57:00 GMT-05:00" name="clicksSubDeleteLinkTryHere" finished-at="2024-12-16T14:57:00 GMT-05:00" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksSubDeleteLinkTryHere -->
-        <test-method signature="executeSubDeleteLinkTryHere()[pri:28, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:51 GMT-05:00" name="executeSubDeleteLinkTryHere" finished-at="2024-12-16T14:26:52 GMT-05:00" duration-ms="491" status="PASS">
+        <test-method signature="executeSubDeleteLinkTryHere()[pri:28, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:57:00 GMT-05:00" name="executeSubDeleteLinkTryHere" finished-at="2024-12-16T14:57:01 GMT-05:00" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSubDeleteLinkTryHere -->
-        <test-method signature="user_clicks_on_sub_linked_practice_question_link()[pri:29, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:52 GMT-05:00" name="user_clicks_on_sub_linked_practice_question_link" finished-at="2024-12-16T14:26:53 GMT-05:00" duration-ms="1304" status="PASS">
+        <test-method signature="user_clicks_on_sub_linked_practice_question_link()[pri:29, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:57:01 GMT-05:00" name="user_clicks_on_sub_linked_practice_question_link" finished-at="2024-12-16T14:57:02 GMT-05:00" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sub_linked_practice_question_link -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:53 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:54 GMT-05:00" duration-ms="889" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:57:02 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:57:03 GMT-05:00" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:26:54 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:54 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LinkedListCases@1f6c9cd8]" started-at="2024-12-16T14:57:03 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:57:03 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LinkedListCases -->
       <class name="tests.GraphTestCases">
-        <test-method is-config="true" signature="graphSetup()[pri:0, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:28 GMT-05:00" name="graphSetup" finished-at="2024-12-16T14:26:34 GMT-05:00" duration-ms="6292" status="PASS">
+        <test-method is-config="true" signature="graphSetup()[pri:0, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:38 GMT-05:00" name="graphSetup" finished-at="2024-12-16T14:56:44 GMT-05:00" duration-ms="6409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graphSetup -->
-        <test-method signature="user_clicks_on_graph_link()[pri:1, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:34 GMT-05:00" name="user_clicks_on_graph_link" finished-at="2024-12-16T14:26:35 GMT-05:00" duration-ms="1541" status="PASS">
+        <test-method signature="user_clicks_on_graph_link()[pri:1, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:44 GMT-05:00" name="user_clicks_on_graph_link" finished-at="2024-12-16T14:56:46 GMT-05:00" duration-ms="1546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_graph_link -->
-        <test-method signature="user_clicks_on_sub_graph_link()[pri:2, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:35 GMT-05:00" name="user_clicks_on_sub_graph_link" finished-at="2024-12-16T14:26:36 GMT-05:00" duration-ms="399" status="PASS">
+        <test-method signature="user_clicks_on_sub_graph_link()[pri:2, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:46 GMT-05:00" name="user_clicks_on_sub_graph_link" finished-at="2024-12-16T14:56:46 GMT-05:00" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sub_graph_link -->
-        <test-method signature="clicksGraphLinkTryHere()[pri:3, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:36 GMT-05:00" name="clicksGraphLinkTryHere" finished-at="2024-12-16T14:26:37 GMT-05:00" duration-ms="912" status="PASS">
+        <test-method signature="clicksGraphLinkTryHere()[pri:3, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:46 GMT-05:00" name="clicksGraphLinkTryHere" finished-at="2024-12-16T14:56:47 GMT-05:00" duration-ms="1005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksGraphLinkTryHere -->
-        <test-method signature="executeGraphLinkTryHere()[pri:4, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:37 GMT-05:00" name="executeGraphLinkTryHere" finished-at="2024-12-16T14:26:37 GMT-05:00" duration-ms="690" status="PASS">
+        <test-method signature="executeGraphLinkTryHere()[pri:4, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:47 GMT-05:00" name="executeGraphLinkTryHere" finished-at="2024-12-16T14:56:48 GMT-05:00" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeGraphLinkTryHere -->
-        <test-method signature="user_clicks_on_graph_represent_link()[pri:5, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:37 GMT-05:00" name="user_clicks_on_graph_represent_link" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="1188" status="PASS">
+        <test-method signature="user_clicks_on_graph_represent_link()[pri:5, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:48 GMT-05:00" name="user_clicks_on_graph_represent_link" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="1171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_graph_represent_link -->
-        <test-method signature="user_clicks_on_sub_graph_represent_link()[pri:6, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:39 GMT-05:00" name="user_clicks_on_sub_graph_represent_link" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="348" status="PASS">
+        <test-method signature="user_clicks_on_sub_graph_represent_link()[pri:6, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:49 GMT-05:00" name="user_clicks_on_sub_graph_represent_link" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_sub_graph_represent_link -->
-        <test-method signature="clicksGraphRepresentLinkTryHere()[pri:7, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:39 GMT-05:00" name="clicksGraphRepresentLinkTryHere" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="451" status="PASS">
+        <test-method signature="clicksGraphRepresentLinkTryHere()[pri:7, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:49 GMT-05:00" name="clicksGraphRepresentLinkTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksGraphRepresentLinkTryHere -->
-        <test-method signature="executeGraphRepresentLinkTryHere()[pri:8, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:39 GMT-05:00" name="executeGraphRepresentLinkTryHere" finished-at="2024-12-16T14:26:40 GMT-05:00" duration-ms="754" status="PASS">
+        <test-method signature="executeGraphRepresentLinkTryHere()[pri:8, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:50 GMT-05:00" name="executeGraphRepresentLinkTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeGraphRepresentLinkTryHere -->
-        <test-method signature="user_clicks_on_graph_practice_test_link()[pri:9, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:40 GMT-05:00" name="user_clicks_on_graph_practice_test_link" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="1774" status="PASS">
+        <test-method signature="user_clicks_on_graph_practice_test_link()[pri:9, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:50 GMT-05:00" name="user_clicks_on_graph_practice_test_link" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="1492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_graph_practice_test_link -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:42 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:43 GMT-05:00" duration-ms="1211" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:52 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:56:53 GMT-05:00" duration-ms="1026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:26:43 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:43 GMT-05:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GraphTestCases@1817f1eb]" started-at="2024-12-16T14:56:53 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:56:53 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.GraphTestCases -->
       <class name="tests.TreeTestCases">
-        <test-method is-config="true" signature="treeSetup()[pri:0, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:28 GMT-05:00" name="treeSetup" finished-at="2024-12-16T14:26:34 GMT-05:00" duration-ms="6124" status="PASS">
+        <test-method is-config="true" signature="treeSetup()[pri:0, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:38 GMT-05:00" name="treeSetup" finished-at="2024-12-16T14:56:44 GMT-05:00" duration-ms="6494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- treeSetup -->
-        <test-method signature="user_clicks_on_tree_overview_link()[pri:1, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:34 GMT-05:00" name="user_clicks_on_tree_overview_link" finished-at="2024-12-16T14:26:35 GMT-05:00" duration-ms="1487" status="PASS">
+        <test-method signature="user_clicks_on_tree_overview_link()[pri:1, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:44 GMT-05:00" name="user_clicks_on_tree_overview_link" finished-at="2024-12-16T14:56:46 GMT-05:00" duration-ms="1528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_tree_overview_link -->
-        <test-method signature="user_clicks_sub_tree_overview_link()[pri:2, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:35 GMT-05:00" name="user_clicks_sub_tree_overview_link" finished-at="2024-12-16T14:26:36 GMT-05:00" duration-ms="516" status="PASS">
+        <test-method signature="user_clicks_sub_tree_overview_link()[pri:2, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:46 GMT-05:00" name="user_clicks_sub_tree_overview_link" finished-at="2024-12-16T14:56:46 GMT-05:00" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_tree_overview_link -->
-        <test-method signature="clicksTreeOverviewLinkTryHere()[pri:3, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:36 GMT-05:00" name="clicksTreeOverviewLinkTryHere" finished-at="2024-12-16T14:26:37 GMT-05:00" duration-ms="993" status="PASS">
+        <test-method signature="clicksTreeOverviewLinkTryHere()[pri:3, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:46 GMT-05:00" name="clicksTreeOverviewLinkTryHere" finished-at="2024-12-16T14:56:47 GMT-05:00" duration-ms="1051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeOverviewLinkTryHere -->
-        <test-method signature="executeTreeOverviewLinkTryHere()[pri:4, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:37 GMT-05:00" name="executeTreeOverviewLinkTryHere" finished-at="2024-12-16T14:26:37 GMT-05:00" duration-ms="656" status="PASS">
+        <test-method signature="executeTreeOverviewLinkTryHere()[pri:4, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:47 GMT-05:00" name="executeTreeOverviewLinkTryHere" finished-at="2024-12-16T14:56:48 GMT-05:00" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeOverviewLinkTryHere -->
-        <test-method signature="user_clicks_on_terminologies_link()[pri:5, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:37 GMT-05:00" name="user_clicks_on_terminologies_link" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="1206" status="PASS">
+        <test-method signature="user_clicks_on_terminologies_link()[pri:5, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:48 GMT-05:00" name="user_clicks_on_terminologies_link" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_terminologies_link -->
-        <test-method signature="user_clicks_sub_terminologies_link()[pri:6, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:39 GMT-05:00" name="user_clicks_sub_terminologies_link" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="439" status="PASS">
+        <test-method signature="user_clicks_sub_terminologies_link()[pri:6, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:49 GMT-05:00" name="user_clicks_sub_terminologies_link" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_terminologies_link -->
-        <test-method signature="clicksTreeTerminologyLinkTryHere()[pri:7, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:39 GMT-05:00" name="clicksTreeTerminologyLinkTryHere" finished-at="2024-12-16T14:26:40 GMT-05:00" duration-ms="483" status="PASS">
+        <test-method signature="clicksTreeTerminologyLinkTryHere()[pri:7, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:49 GMT-05:00" name="clicksTreeTerminologyLinkTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeTerminologyLinkTryHere -->
-        <test-method signature="executeTreeTerminologyLinkTryHere()[pri:8, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:40 GMT-05:00" name="executeTreeTerminologyLinkTryHere" finished-at="2024-12-16T14:26:40 GMT-05:00" duration-ms="641" status="PASS">
+        <test-method signature="executeTreeTerminologyLinkTryHere()[pri:8, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:50 GMT-05:00" name="executeTreeTerminologyLinkTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeTerminologyLinkTryHere -->
-        <test-method signature="user_clicks_on_types_trees_link()[pri:9, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:40 GMT-05:00" name="user_clicks_on_types_trees_link" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="1325" status="PASS">
+        <test-method signature="user_clicks_on_types_trees_link()[pri:9, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:50 GMT-05:00" name="user_clicks_on_types_trees_link" finished-at="2024-12-16T14:56:51 GMT-05:00" duration-ms="1239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_types_trees_link -->
-        <test-method signature="user_clicks_sub_types_trees_link()[pri:10, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:42 GMT-05:00" name="user_clicks_sub_types_trees_link" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="471" status="PASS">
+        <test-method signature="user_clicks_sub_types_trees_link()[pri:10, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:51 GMT-05:00" name="user_clicks_sub_types_trees_link" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_types_trees_link -->
-        <test-method signature="clicksTreeTypesOfLinkTryHere()[pri:11, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:42 GMT-05:00" name="clicksTreeTypesOfLinkTryHere" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="413" status="PASS">
+        <test-method signature="clicksTreeTypesOfLinkTryHere()[pri:11, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:52 GMT-05:00" name="clicksTreeTypesOfLinkTryHere" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeTypesOfLinkTryHere -->
-        <test-method signature="executeTreeTypesOfLinkTryHere()[pri:12, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:42 GMT-05:00" name="executeTreeTypesOfLinkTryHere" finished-at="2024-12-16T14:26:43 GMT-05:00" duration-ms="871" status="PASS">
+        <test-method signature="executeTreeTypesOfLinkTryHere()[pri:12, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:52 GMT-05:00" name="executeTreeTypesOfLinkTryHere" finished-at="2024-12-16T14:56:53 GMT-05:00" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeTypesOfLinkTryHere -->
-        <test-method signature="user_clicks_on_traversals_link()[pri:13, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:43 GMT-05:00" name="user_clicks_on_traversals_link" finished-at="2024-12-16T14:26:45 GMT-05:00" duration-ms="1353" status="PASS">
+        <test-method signature="user_clicks_on_traversals_link()[pri:13, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:53 GMT-05:00" name="user_clicks_on_traversals_link" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_traversals_link -->
-        <test-method signature="user_clicks_sub_traversals_link()[pri:14, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:45 GMT-05:00" name="user_clicks_sub_traversals_link" finished-at="2024-12-16T14:26:45 GMT-05:00" duration-ms="343" status="PASS">
+        <test-method signature="user_clicks_sub_traversals_link()[pri:14, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:54 GMT-05:00" name="user_clicks_sub_traversals_link" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_traversals_link -->
-        <test-method signature="clicksTreeTraversalLinkTryHere()[pri:15, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:45 GMT-05:00" name="clicksTreeTraversalLinkTryHere" finished-at="2024-12-16T14:26:45 GMT-05:00" duration-ms="351" status="PASS">
+        <test-method signature="clicksTreeTraversalLinkTryHere()[pri:15, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:54 GMT-05:00" name="clicksTreeTraversalLinkTryHere" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeTraversalLinkTryHere -->
-        <test-method signature="executeTreeTraversalLinkTryHere()[pri:16, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:45 GMT-05:00" name="executeTreeTraversalLinkTryHere" finished-at="2024-12-16T14:26:46 GMT-05:00" duration-ms="549" status="PASS">
+        <test-method signature="executeTreeTraversalLinkTryHere()[pri:16, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:54 GMT-05:00" name="executeTreeTraversalLinkTryHere" finished-at="2024-12-16T14:56:55 GMT-05:00" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeTraversalLinkTryHere -->
-        <test-method signature="user_clicks_on_illustration_link()[pri:17, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:46 GMT-05:00" name="user_clicks_on_illustration_link" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="1054" status="PASS">
+        <test-method signature="user_clicks_on_illustration_link()[pri:17, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:55 GMT-05:00" name="user_clicks_on_illustration_link" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_illustration_link -->
-        <test-method signature="user_clicks_sub_illustration_link()[pri:18, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:47 GMT-05:00" name="user_clicks_sub_illustration_link" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="278" status="PASS">
+        <test-method signature="user_clicks_sub_illustration_link()[pri:18, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:56 GMT-05:00" name="user_clicks_sub_illustration_link" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_illustration_link -->
-        <test-method signature="clicksTreeIllustrationLinkTryHere()[pri:19, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:47 GMT-05:00" name="clicksTreeIllustrationLinkTryHere" finished-at="2024-12-16T14:26:48 GMT-05:00" duration-ms="311" status="PASS">
+        <test-method signature="clicksTreeIllustrationLinkTryHere()[pri:19, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:56 GMT-05:00" name="clicksTreeIllustrationLinkTryHere" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeIllustrationLinkTryHere -->
-        <test-method signature="executeTreeIllustrationLinkTryHere()[pri:20, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:48 GMT-05:00" name="executeTreeIllustrationLinkTryHere" finished-at="2024-12-16T14:26:48 GMT-05:00" duration-ms="506" status="PASS">
+        <test-method signature="executeTreeIllustrationLinkTryHere()[pri:20, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:56 GMT-05:00" name="executeTreeIllustrationLinkTryHere" finished-at="2024-12-16T14:56:57 GMT-05:00" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeIllustrationLinkTryHere -->
-        <test-method signature="user_clicks_on_binary_tree_link()[pri:21, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:48 GMT-05:00" name="user_clicks_on_binary_tree_link" finished-at="2024-12-16T14:26:49 GMT-05:00" duration-ms="927" status="PASS">
+        <test-method signature="user_clicks_on_binary_tree_link()[pri:21, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:57 GMT-05:00" name="user_clicks_on_binary_tree_link" finished-at="2024-12-16T14:56:58 GMT-05:00" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_binary_tree_link -->
-        <test-method signature="user_clicks_sub_binary_tree_link()[pri:22, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:49 GMT-05:00" name="user_clicks_sub_binary_tree_link" finished-at="2024-12-16T14:26:49 GMT-05:00" duration-ms="293" status="PASS">
+        <test-method signature="user_clicks_sub_binary_tree_link()[pri:22, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:58 GMT-05:00" name="user_clicks_sub_binary_tree_link" finished-at="2024-12-16T14:56:58 GMT-05:00" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_binary_tree_link -->
-        <test-method signature="clicksTreeBinaryTreeLinkTryHere()[pri:23, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:49 GMT-05:00" name="clicksTreeBinaryTreeLinkTryHere" finished-at="2024-12-16T14:26:50 GMT-05:00" duration-ms="326" status="PASS">
+        <test-method signature="clicksTreeBinaryTreeLinkTryHere()[pri:23, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:58 GMT-05:00" name="clicksTreeBinaryTreeLinkTryHere" finished-at="2024-12-16T14:56:58 GMT-05:00" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeBinaryTreeLinkTryHere -->
-        <test-method signature="executeTreeBinaryTreeLinkTryHere()[pri:24, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:50 GMT-05:00" name="executeTreeBinaryTreeLinkTryHere" finished-at="2024-12-16T14:26:50 GMT-05:00" duration-ms="519" status="PASS">
+        <test-method signature="executeTreeBinaryTreeLinkTryHere()[pri:24, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:58 GMT-05:00" name="executeTreeBinaryTreeLinkTryHere" finished-at="2024-12-16T14:56:59 GMT-05:00" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeBinaryTreeLinkTryHere -->
-        <test-method signature="user_clicks_on_types_binary_link()[pri:25, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:50 GMT-05:00" name="user_clicks_on_types_binary_link" finished-at="2024-12-16T14:26:51 GMT-05:00" duration-ms="1006" status="PASS">
+        <test-method signature="user_clicks_on_types_binary_link()[pri:25, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:56:59 GMT-05:00" name="user_clicks_on_types_binary_link" finished-at="2024-12-16T14:57:00 GMT-05:00" duration-ms="932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_types_binary_link -->
-        <test-method signature="user_clicks_sub_types_binary_link()[pri:26, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:51 GMT-05:00" name="user_clicks_sub_types_binary_link" finished-at="2024-12-16T14:26:52 GMT-05:00" duration-ms="334" status="PASS">
+        <test-method signature="user_clicks_sub_types_binary_link()[pri:26, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:00 GMT-05:00" name="user_clicks_sub_types_binary_link" finished-at="2024-12-16T14:57:00 GMT-05:00" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_types_binary_link -->
-        <test-method signature="clicksTreeTypesBinaryLinkTryHere()[pri:27, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:52 GMT-05:00" name="clicksTreeTypesBinaryLinkTryHere" finished-at="2024-12-16T14:26:52 GMT-05:00" duration-ms="360" status="PASS">
+        <test-method signature="clicksTreeTypesBinaryLinkTryHere()[pri:27, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:00 GMT-05:00" name="clicksTreeTypesBinaryLinkTryHere" finished-at="2024-12-16T14:57:00 GMT-05:00" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeTypesBinaryLinkTryHere -->
-        <test-method signature="executeTreeTypesBinaryLinkTryHere()[pri:28, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:52 GMT-05:00" name="executeTreeTypesBinaryLinkTryHere" finished-at="2024-12-16T14:26:52 GMT-05:00" duration-ms="554" status="PASS">
+        <test-method signature="executeTreeTypesBinaryLinkTryHere()[pri:28, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:00 GMT-05:00" name="executeTreeTypesBinaryLinkTryHere" finished-at="2024-12-16T14:57:01 GMT-05:00" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeTypesBinaryLinkTryHere -->
-        <test-method signature="user_clicks_on_impl_python_link()[pri:29, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:52 GMT-05:00" name="user_clicks_on_impl_python_link" finished-at="2024-12-16T14:26:53 GMT-05:00" duration-ms="947" status="PASS">
+        <test-method signature="user_clicks_on_impl_python_link()[pri:29, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:01 GMT-05:00" name="user_clicks_on_impl_python_link" finished-at="2024-12-16T14:57:02 GMT-05:00" duration-ms="791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_impl_python_link -->
-        <test-method signature="user_clicks_sub_impl_python_link()[pri:30, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:53 GMT-05:00" name="user_clicks_sub_impl_python_link" finished-at="2024-12-16T14:26:54 GMT-05:00" duration-ms="349" status="PASS">
+        <test-method signature="user_clicks_sub_impl_python_link()[pri:30, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:02 GMT-05:00" name="user_clicks_sub_impl_python_link" finished-at="2024-12-16T14:57:02 GMT-05:00" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_impl_python_link -->
-        <test-method signature="clicksTreeImplPythonLinkTryHere()[pri:31, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:54 GMT-05:00" name="clicksTreeImplPythonLinkTryHere" finished-at="2024-12-16T14:26:54 GMT-05:00" duration-ms="417" status="PASS">
+        <test-method signature="clicksTreeImplPythonLinkTryHere()[pri:31, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:02 GMT-05:00" name="clicksTreeImplPythonLinkTryHere" finished-at="2024-12-16T14:57:02 GMT-05:00" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeImplPythonLinkTryHere -->
-        <test-method signature="executeTreeImplPythonLinkTryHere()[pri:32, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:54 GMT-05:00" name="executeTreeImplPythonLinkTryHere" finished-at="2024-12-16T14:26:55 GMT-05:00" duration-ms="557" status="PASS">
+        <test-method signature="executeTreeImplPythonLinkTryHere()[pri:32, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:02 GMT-05:00" name="executeTreeImplPythonLinkTryHere" finished-at="2024-12-16T14:57:03 GMT-05:00" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeImplPythonLinkTryHere -->
-        <test-method signature="user_clicks_on_binary_traversals_link()[pri:33, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:55 GMT-05:00" name="user_clicks_on_binary_traversals_link" finished-at="2024-12-16T14:26:56 GMT-05:00" duration-ms="933" status="PASS">
+        <test-method signature="user_clicks_on_binary_traversals_link()[pri:33, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:03 GMT-05:00" name="user_clicks_on_binary_traversals_link" finished-at="2024-12-16T14:57:04 GMT-05:00" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_binary_traversals_link -->
-        <test-method signature="user_clicks_sub_binary_traversals_link()[pri:34, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:56 GMT-05:00" name="user_clicks_sub_binary_traversals_link" finished-at="2024-12-16T14:26:56 GMT-05:00" duration-ms="330" status="PASS">
+        <test-method signature="user_clicks_sub_binary_traversals_link()[pri:34, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:04 GMT-05:00" name="user_clicks_sub_binary_traversals_link" finished-at="2024-12-16T14:57:04 GMT-05:00" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_binary_traversals_link -->
-        <test-method signature="clicksTreeBinaryTraversalLinkTryHere()[pri:35, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:56 GMT-05:00" name="clicksTreeBinaryTraversalLinkTryHere" finished-at="2024-12-16T14:26:56 GMT-05:00" duration-ms="380" status="PASS">
+        <test-method signature="clicksTreeBinaryTraversalLinkTryHere()[pri:35, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:04 GMT-05:00" name="clicksTreeBinaryTraversalLinkTryHere" finished-at="2024-12-16T14:57:05 GMT-05:00" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeBinaryTraversalLinkTryHere -->
-        <test-method signature="executeTreeBinaryTraversalLinkTryHere()[pri:36, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:56 GMT-05:00" name="executeTreeBinaryTraversalLinkTryHere" finished-at="2024-12-16T14:26:57 GMT-05:00" duration-ms="584" status="PASS">
+        <test-method signature="executeTreeBinaryTraversalLinkTryHere()[pri:36, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:05 GMT-05:00" name="executeTreeBinaryTraversalLinkTryHere" finished-at="2024-12-16T14:57:05 GMT-05:00" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeBinaryTraversalLinkTryHere -->
-        <test-method signature="user_clicks_on_impl_binary_trees_link()[pri:37, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:57 GMT-05:00" name="user_clicks_on_impl_binary_trees_link" finished-at="2024-12-16T14:26:58 GMT-05:00" duration-ms="1039" status="PASS">
+        <test-method signature="user_clicks_on_impl_binary_trees_link()[pri:37, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:05 GMT-05:00" name="user_clicks_on_impl_binary_trees_link" finished-at="2024-12-16T14:57:06 GMT-05:00" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_impl_binary_trees_link -->
-        <test-method signature="user_clicks_sub_impl_binary_trees_link()[pri:38, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:58 GMT-05:00" name="user_clicks_sub_impl_binary_trees_link" finished-at="2024-12-16T14:26:58 GMT-05:00" duration-ms="358" status="PASS">
+        <test-method signature="user_clicks_sub_impl_binary_trees_link()[pri:38, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:06 GMT-05:00" name="user_clicks_sub_impl_binary_trees_link" finished-at="2024-12-16T14:57:06 GMT-05:00" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_impl_binary_trees_link -->
-        <test-method signature="clicksTreeImplBinaryLinkTryHere()[pri:39, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:58 GMT-05:00" name="clicksTreeImplBinaryLinkTryHere" finished-at="2024-12-16T14:26:59 GMT-05:00" duration-ms="361" status="PASS">
+        <test-method signature="clicksTreeImplBinaryLinkTryHere()[pri:39, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:06 GMT-05:00" name="clicksTreeImplBinaryLinkTryHere" finished-at="2024-12-16T14:57:07 GMT-05:00" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeImplBinaryLinkTryHere -->
-        <test-method signature="executeTreeImplBinaryLinkTryHere()[pri:40, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:59 GMT-05:00" name="executeTreeImplBinaryLinkTryHere" finished-at="2024-12-16T14:26:59 GMT-05:00" duration-ms="621" status="PASS">
+        <test-method signature="executeTreeImplBinaryLinkTryHere()[pri:40, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:07 GMT-05:00" name="executeTreeImplBinaryLinkTryHere" finished-at="2024-12-16T14:57:07 GMT-05:00" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeImplBinaryLinkTryHere -->
-        <test-method signature="user_clicks_on_appl_binary_tree_link()[pri:41, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:26:59 GMT-05:00" name="user_clicks_on_appl_binary_tree_link" finished-at="2024-12-16T14:27:00 GMT-05:00" duration-ms="1010" status="PASS">
+        <test-method signature="user_clicks_on_appl_binary_tree_link()[pri:41, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:07 GMT-05:00" name="user_clicks_on_appl_binary_tree_link" finished-at="2024-12-16T14:57:08 GMT-05:00" duration-ms="846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_appl_binary_tree_link -->
-        <test-method signature="user_clicks_sub_appl_binary_tree_link()[pri:42, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:00 GMT-05:00" name="user_clicks_sub_appl_binary_tree_link" finished-at="2024-12-16T14:27:01 GMT-05:00" duration-ms="374" status="PASS">
+        <test-method signature="user_clicks_sub_appl_binary_tree_link()[pri:42, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:08 GMT-05:00" name="user_clicks_sub_appl_binary_tree_link" finished-at="2024-12-16T14:57:08 GMT-05:00" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_appl_binary_tree_link -->
-        <test-method signature="clicksTreeApplBinaryLinkTryHere()[pri:43, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:01 GMT-05:00" name="clicksTreeApplBinaryLinkTryHere" finished-at="2024-12-16T14:27:01 GMT-05:00" duration-ms="357" status="PASS">
+        <test-method signature="clicksTreeApplBinaryLinkTryHere()[pri:43, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:08 GMT-05:00" name="clicksTreeApplBinaryLinkTryHere" finished-at="2024-12-16T14:57:09 GMT-05:00" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeApplBinaryLinkTryHere -->
-        <test-method signature="executeTreeTreeApplBinaryLinkTryHere()[pri:44, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:01 GMT-05:00" name="executeTreeTreeApplBinaryLinkTryHere" finished-at="2024-12-16T14:27:02 GMT-05:00" duration-ms="594" status="PASS">
+        <test-method signature="executeTreeTreeApplBinaryLinkTryHere()[pri:44, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:09 GMT-05:00" name="executeTreeTreeApplBinaryLinkTryHere" finished-at="2024-12-16T14:57:10 GMT-05:00" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeTreeApplBinaryLinkTryHere -->
-        <test-method signature="user_clicks_on_binary_search_link()[pri:45, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:02 GMT-05:00" name="user_clicks_on_binary_search_link" finished-at="2024-12-16T14:27:03 GMT-05:00" duration-ms="1245" status="PASS">
+        <test-method signature="user_clicks_on_binary_search_link()[pri:45, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:10 GMT-05:00" name="user_clicks_on_binary_search_link" finished-at="2024-12-16T14:57:11 GMT-05:00" duration-ms="914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_binary_search_link -->
-        <test-method signature="user_clicks_sub_binary_search_link()[pri:46, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:03 GMT-05:00" name="user_clicks_sub_binary_search_link" finished-at="2024-12-16T14:27:03 GMT-05:00" duration-ms="452" status="PASS">
+        <test-method signature="user_clicks_sub_binary_search_link()[pri:46, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:11 GMT-05:00" name="user_clicks_sub_binary_search_link" finished-at="2024-12-16T14:57:11 GMT-05:00" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_binary_search_link -->
-        <test-method signature="clicksTreeBinarySearchLinkTryHere()[pri:47, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:03 GMT-05:00" name="clicksTreeBinarySearchLinkTryHere" finished-at="2024-12-16T14:27:04 GMT-05:00" duration-ms="374" status="PASS">
+        <test-method signature="clicksTreeBinarySearchLinkTryHere()[pri:47, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:11 GMT-05:00" name="clicksTreeBinarySearchLinkTryHere" finished-at="2024-12-16T14:57:11 GMT-05:00" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeBinarySearchLinkTryHere -->
-        <test-method signature="executeTreeBinarySearchLinkTryHere()[pri:48, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:04 GMT-05:00" name="executeTreeBinarySearchLinkTryHere" finished-at="2024-12-16T14:27:04 GMT-05:00" duration-ms="605" status="PASS">
+        <test-method signature="executeTreeBinarySearchLinkTryHere()[pri:48, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:11 GMT-05:00" name="executeTreeBinarySearchLinkTryHere" finished-at="2024-12-16T14:57:12 GMT-05:00" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeBinarySearchLinkTryHere -->
-        <test-method signature="user_clicks_on_impl_binary_search_link()[pri:49, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:04 GMT-05:00" name="user_clicks_on_impl_binary_search_link" finished-at="2024-12-16T14:27:05 GMT-05:00" duration-ms="972" status="PASS">
+        <test-method signature="user_clicks_on_impl_binary_search_link()[pri:49, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:12 GMT-05:00" name="user_clicks_on_impl_binary_search_link" finished-at="2024-12-16T14:57:13 GMT-05:00" duration-ms="837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_impl_binary_search_link -->
-        <test-method signature="user_clicks_sub_impl_binary_search_link()[pri:50, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:05 GMT-05:00" name="user_clicks_sub_impl_binary_search_link" finished-at="2024-12-16T14:27:06 GMT-05:00" duration-ms="331" status="PASS">
+        <test-method signature="user_clicks_sub_impl_binary_search_link()[pri:50, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:13 GMT-05:00" name="user_clicks_sub_impl_binary_search_link" finished-at="2024-12-16T14:57:13 GMT-05:00" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_impl_binary_search_link -->
-        <test-method signature="clicksTreeimplBinSearchLinkTryHere()[pri:51, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:06 GMT-05:00" name="clicksTreeimplBinSearchLinkTryHere" finished-at="2024-12-16T14:27:06 GMT-05:00" duration-ms="459" status="PASS">
+        <test-method signature="clicksTreeimplBinSearchLinkTryHere()[pri:51, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:13 GMT-05:00" name="clicksTreeimplBinSearchLinkTryHere" finished-at="2024-12-16T14:57:13 GMT-05:00" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksTreeimplBinSearchLinkTryHere -->
-        <test-method signature="executeTreeimplBinSearchLinkTryHere()[pri:52, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:06 GMT-05:00" name="executeTreeimplBinSearchLinkTryHere" finished-at="2024-12-16T14:27:07 GMT-05:00" duration-ms="613" status="PASS">
+        <test-method signature="executeTreeimplBinSearchLinkTryHere()[pri:52, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:13 GMT-05:00" name="executeTreeimplBinSearchLinkTryHere" finished-at="2024-12-16T14:57:14 GMT-05:00" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTreeimplBinSearchLinkTryHere -->
-        <test-method signature="user_clicks_on_tree_practice_questions_link()[pri:53, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:07 GMT-05:00" name="user_clicks_on_tree_practice_questions_link" finished-at="2024-12-16T14:27:08 GMT-05:00" duration-ms="1358" status="PASS">
+        <test-method signature="user_clicks_on_tree_practice_questions_link()[pri:53, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:14 GMT-05:00" name="user_clicks_on_tree_practice_questions_link" finished-at="2024-12-16T14:57:15 GMT-05:00" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_tree_practice_questions_link -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:08 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:27:09 GMT-05:00" duration-ms="908" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:15 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:57:16 GMT-05:00" duration-ms="829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:27:09 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:27:09 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TreeTestCases@54dcfa5a]" started-at="2024-12-16T14:57:16 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:57:16 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TreeTestCases -->
       <class name="tests.QueueTestcases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:25:55 GMT-05:00" name="setUp" finished-at="2024-12-16T14:25:58 GMT-05:00" duration-ms="2186" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:55:51 GMT-05:00" name="setUp" finished-at="2024-12-16T14:55:53 GMT-05:00" duration-ms="2188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="queueSetup()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:28 GMT-05:00" name="queueSetup" finished-at="2024-12-16T14:26:34 GMT-05:00" duration-ms="5921" status="PASS">
+        <test-method is-config="true" signature="queueSetup()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:38 GMT-05:00" name="queueSetup" finished-at="2024-12-16T14:56:44 GMT-05:00" duration-ms="6422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queueSetup -->
-        <test-method signature="user_clicks_on_implement_queue_link()[pri:1, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:34 GMT-05:00" name="user_clicks_on_implement_queue_link" finished-at="2024-12-16T14:26:35 GMT-05:00" duration-ms="1334" status="PASS">
+        <test-method signature="user_clicks_on_implement_queue_link()[pri:1, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:44 GMT-05:00" name="user_clicks_on_implement_queue_link" finished-at="2024-12-16T14:56:45 GMT-05:00" duration-ms="1498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_implement_queue_link -->
-        <test-method signature="user_clicks_sub_implement_queue_link()[pri:2, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:35 GMT-05:00" name="user_clicks_sub_implement_queue_link" finished-at="2024-12-16T14:26:35 GMT-05:00" duration-ms="587" status="PASS">
+        <test-method signature="user_clicks_sub_implement_queue_link()[pri:2, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:45 GMT-05:00" name="user_clicks_sub_implement_queue_link" finished-at="2024-12-16T14:56:46 GMT-05:00" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_implement_queue_link -->
-        <test-method signature="clicksubImplementQueueTryHere()[pri:3, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:35 GMT-05:00" name="clicksubImplementQueueTryHere" finished-at="2024-12-16T14:26:36 GMT-05:00" duration-ms="796" status="PASS">
+        <test-method signature="clicksubImplementQueueTryHere()[pri:3, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:46 GMT-05:00" name="clicksubImplementQueueTryHere" finished-at="2024-12-16T14:56:47 GMT-05:00" duration-ms="1140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksubImplementQueueTryHere -->
-        <test-method signature="executeImpleQueueTryHere()[pri:4, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:36 GMT-05:00" name="executeImpleQueueTryHere" finished-at="2024-12-16T14:26:37 GMT-05:00" duration-ms="918" status="PASS">
+        <test-method signature="executeImpleQueueTryHere()[pri:4, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:47 GMT-05:00" name="executeImpleQueueTryHere" finished-at="2024-12-16T14:56:48 GMT-05:00" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeImpleQueueTryHere -->
-        <test-method signature="user_clicks_on_implement_de_que_link()[pri:5, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:37 GMT-05:00" name="user_clicks_on_implement_de_que_link" finished-at="2024-12-16T14:26:38 GMT-05:00" duration-ms="1011" status="PASS">
+        <test-method signature="user_clicks_on_implement_de_que_link()[pri:5, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:48 GMT-05:00" name="user_clicks_on_implement_de_que_link" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="1051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_implement_de_que_link -->
-        <test-method signature="user_clicks_sub_implement_de_que_link()[pri:6, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:38 GMT-05:00" name="user_clicks_sub_implement_de_que_link" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="367" status="PASS">
+        <test-method signature="user_clicks_sub_implement_de_que_link()[pri:6, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:49 GMT-05:00" name="user_clicks_sub_implement_de_que_link" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_implement_de_que_link -->
-        <test-method signature="clicksubImplementDeQueueTryHere()[pri:7, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:39 GMT-05:00" name="clicksubImplementDeQueueTryHere" finished-at="2024-12-16T14:26:39 GMT-05:00" duration-ms="489" status="PASS">
+        <test-method signature="clicksubImplementDeQueueTryHere()[pri:7, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:49 GMT-05:00" name="clicksubImplementDeQueueTryHere" finished-at="2024-12-16T14:56:49 GMT-05:00" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksubImplementDeQueueTryHere -->
-        <test-method signature="executeImpleDeQueueTryHere()[pri:8, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:39 GMT-05:00" name="executeImpleDeQueueTryHere" finished-at="2024-12-16T14:26:40 GMT-05:00" duration-ms="777" status="PASS">
+        <test-method signature="executeImpleDeQueueTryHere()[pri:8, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:50 GMT-05:00" name="executeImpleDeQueueTryHere" finished-at="2024-12-16T14:56:50 GMT-05:00" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeImpleDeQueueTryHere -->
-        <test-method signature="user_clicks_on_implement_array_link()[pri:9, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:40 GMT-05:00" name="user_clicks_on_implement_array_link" finished-at="2024-12-16T14:26:41 GMT-05:00" duration-ms="1042" status="PASS">
+        <test-method signature="user_clicks_on_implement_array_link()[pri:9, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:50 GMT-05:00" name="user_clicks_on_implement_array_link" finished-at="2024-12-16T14:56:51 GMT-05:00" duration-ms="1205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_implement_array_link -->
-        <test-method signature="user_clicks_Sub_implement_array_link()[pri:10, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:41 GMT-05:00" name="user_clicks_Sub_implement_array_link" finished-at="2024-12-16T14:26:41 GMT-05:00" duration-ms="387" status="PASS">
+        <test-method signature="user_clicks_Sub_implement_array_link()[pri:10, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:51 GMT-05:00" name="user_clicks_Sub_implement_array_link" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_Sub_implement_array_link -->
-        <test-method signature="clicksubImplementArrayTryHere()[pri:11, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:41 GMT-05:00" name="clicksubImplementArrayTryHere" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="391" status="PASS">
+        <test-method signature="clicksubImplementArrayTryHere()[pri:11, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:52 GMT-05:00" name="clicksubImplementArrayTryHere" finished-at="2024-12-16T14:56:52 GMT-05:00" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksubImplementArrayTryHere -->
-        <test-method signature="executeImpleArrayTryHere()[pri:12, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:42 GMT-05:00" name="executeImpleArrayTryHere" finished-at="2024-12-16T14:26:42 GMT-05:00" duration-ms="520" status="PASS">
+        <test-method signature="executeImpleArrayTryHere()[pri:12, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:52 GMT-05:00" name="executeImpleArrayTryHere" finished-at="2024-12-16T14:56:53 GMT-05:00" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeImpleArrayTryHere -->
-        <test-method signature="user_clicks_on_queue_operation_link()[pri:13, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:42 GMT-05:00" name="user_clicks_on_queue_operation_link" finished-at="2024-12-16T14:26:43 GMT-05:00" duration-ms="1284" status="PASS">
+        <test-method signature="user_clicks_on_queue_operation_link()[pri:13, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:53 GMT-05:00" name="user_clicks_on_queue_operation_link" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_queue_operation_link -->
-        <test-method signature="user_clicks_sub_queue_operation_link()[pri:14, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:43 GMT-05:00" name="user_clicks_sub_queue_operation_link" finished-at="2024-12-16T14:26:44 GMT-05:00" duration-ms="458" status="PASS">
+        <test-method signature="user_clicks_sub_queue_operation_link()[pri:14, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:54 GMT-05:00" name="user_clicks_sub_queue_operation_link" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_sub_queue_operation_link -->
-        <test-method signature="clicksubQueueOperationsTryHere()[pri:15, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:44 GMT-05:00" name="clicksubQueueOperationsTryHere" finished-at="2024-12-16T14:26:44 GMT-05:00" duration-ms="326" status="PASS">
+        <test-method signature="clicksubQueueOperationsTryHere()[pri:15, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:54 GMT-05:00" name="clicksubQueueOperationsTryHere" finished-at="2024-12-16T14:56:54 GMT-05:00" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicksubQueueOperationsTryHere -->
-        <test-method signature="executeQueueOperationsTryHere()[pri:16, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:44 GMT-05:00" name="executeQueueOperationsTryHere" finished-at="2024-12-16T14:26:45 GMT-05:00" duration-ms="476" status="PASS">
+        <test-method signature="executeQueueOperationsTryHere()[pri:16, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:54 GMT-05:00" name="executeQueueOperationsTryHere" finished-at="2024-12-16T14:56:55 GMT-05:00" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeQueueOperationsTryHere -->
-        <test-method signature="user_clicks_on_queue_practise_test_link()[pri:17, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:45 GMT-05:00" name="user_clicks_on_queue_practise_test_link" finished-at="2024-12-16T14:26:46 GMT-05:00" duration-ms="1103" status="PASS">
+        <test-method signature="user_clicks_on_queue_practise_test_link()[pri:17, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:55 GMT-05:00" name="user_clicks_on_queue_practise_test_link" finished-at="2024-12-16T14:56:56 GMT-05:00" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_queue_practise_test_link -->
-        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:46 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="942" status="PASS">
+        <test-method is-config="true" signature="user_clicks_on_logout_link()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:56 GMT-05:00" name="user_clicks_on_logout_link" finished-at="2024-12-16T14:56:57 GMT-05:00" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_logout_link -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:26:47 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:26:47 GMT-05:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QueueTestcases@6d23017e]" started-at="2024-12-16T14:56:57 GMT-05:00" name="tearDown" finished-at="2024-12-16T14:56:57 GMT-05:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
