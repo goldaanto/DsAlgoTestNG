@@ -69,9 +69,11 @@ public class ExcelReader {
 		return valuePairs;
 	}
 	
-	public ArrayList<Object[]> getProviderData(String sheetName)
+	public ArrayList<Object[]> getProviderUserData(String sheetName)
 	{
 		ArrayList<Object[]> valuePairs = new ArrayList<Object[]>();
+		
+		ArrayList valuelist = new ArrayList();
 		
 				
 		XSSFSheet sheet = workbook.getSheet(sheetName);
@@ -84,20 +86,56 @@ public class ExcelReader {
 		{
 			
 			XSSFRow row  = sheet.getRow(i);
-			Object [] a = new Object[2];	
+			
 			for(int j=0;j<noofCols;j++)
 			{			
 				
 				String value = row.getCell(j).getStringCellValue();
-				a[j]	=value;			
+				valuelist.add(value);		
 				
-			}				
+				
+			}	
+			Object a[] = {valuelist.get(0),valuelist.get(1)};
 			valuePairs.add(a);
 		}
 		
 		return valuePairs;
 	}
 	
+	public ArrayList<Object[]> getTryEditorValue(String sheetName)
+	{
+		ArrayList<Object[]> valuePairs = new ArrayList<Object[]>();
+		
+		ArrayList valuelist = null;
+		
+				
+		XSSFSheet sheet = workbook.getSheet(sheetName);
+		XSSFRow firstRow = sheet.getRow(0);
+					
+		int noOfRows = sheet.getLastRowNum();
+		int noofCols = firstRow.getLastCellNum();
+				
+		for(int i=0;i<=noOfRows;i++)
+		{
+			
+			XSSFRow row  = sheet.getRow(i);
+			valuelist = new ArrayList();
+			
+			for(int j=0;j<noofCols;j++)
+			{			
+				
+				String value = row.getCell(j).getStringCellValue();
+				valuelist.add(value);		
+				System.out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"+value);
+				
+			}	
+			System.out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"+valuelist.get(0));
+			Object a[] = {valuelist.get(0)};
+			valuePairs.add(a);
+		}
+		
+		return valuePairs;
+	}
 	
 	
 	public String[] getUserPassword(String sheetName, int rowNum)

@@ -14,12 +14,12 @@ import pageObject.QueuePageObject;
 
 public class QueueTestcases extends BaseCases{
 
-	WebDriver driver = null;
+	
 	QueuePageObject queuePageObject = null;
 
 	@BeforeClass
 	public void queueSetup() {		
-		driver = new ChromeDriver();
+		
 		queuePageObject = new QueuePageObject(driver);
 		login(driver);	    
 	}
@@ -59,11 +59,11 @@ public class QueueTestcases extends BaseCases{
 		this.clickQueueTryHereLink();
 	}
 
-	@Test(priority = 4)
-	public void executeImpleQueueTryHere()
+	@Test(priority = 4, dataProvider = "getTestData")
+	public void executeImpleQueueTryHere(String value)
 	{
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);
+		tryEditor.executeTryEditor(driver, value);
 	}
 
 
@@ -88,11 +88,11 @@ public class QueueTestcases extends BaseCases{
 		this.clickQueueTryHereLink();
 	}
 
-	@Test(priority = 8)
-	public void executeImpleDeQueueTryHere()
+	@Test(priority = 8, dataProvider = "getTestData")
+	public void executeImpleDeQueueTryHere(String Value)
 	{
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);
+		tryEditor.executeTryEditor(driver, Value);
 	}
 
 	@Test(priority = 9)
@@ -115,11 +115,11 @@ public class QueueTestcases extends BaseCases{
 		this.clickQueueTryHereLink();
 	}
 
-	@Test(priority = 12)
-	public void executeImpleArrayTryHere()
+	@Test(priority = 12, dataProvider = "getTestData")
+	public void executeImpleArrayTryHere(String value)
 	{
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);
+		tryEditor.executeTryEditor(driver, value);
 	}
 
 	@Test(priority = 13)
@@ -144,11 +144,11 @@ public class QueueTestcases extends BaseCases{
 		this.clickQueueTryHereLink();
 	}
 
-	@Test(priority = 16)
-	public void executeQueueOperationsTryHere()
+	@Test(priority = 16, dataProvider = "getTestData")
+	public void executeQueueOperationsTryHere(String value)
 	{
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);
+		tryEditor.executeTryEditor(driver, value);
 	}
 
 
@@ -165,7 +165,7 @@ public class QueueTestcases extends BaseCases{
 	public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
 		homeObject.clickLogout();
-		driver.quit();
+		
 	}
 
 }

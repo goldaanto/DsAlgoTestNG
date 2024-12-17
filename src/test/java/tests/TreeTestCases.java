@@ -1,24 +1,29 @@
 package tests;
 
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pageObject.TreePageObject;
+import util.ExcelReader;
 
 
 
 public class TreeTestCases extends BaseCases {
-	WebDriver driver = null;
+	
 	TreePageObject treePageObject = null;
+	ExcelReader xcelRead = null;
 
 	@BeforeClass
 	public void treeSetup() {
-		driver = new ChromeDriver();
+		
 		treePageObject = new TreePageObject(driver);	
 		login(driver);
 	}
@@ -54,11 +59,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 4)
-	public void executeTreeOverviewLinkTryHere() {
+	@Test(priority = 4, dataProvider = "getTestData")
+	public void executeTreeOverviewLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver,value);	
 	}
 	
 
@@ -86,11 +91,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 8)
-	public void executeTreeTerminologyLinkTryHere() {
+	@Test(priority = 8, dataProvider = "getTestData")
+	public void executeTreeTerminologyLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	@Test(priority = 9)
@@ -116,11 +121,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority =12)
-	public void executeTreeTypesOfLinkTryHere() {
+	@Test(priority =12, dataProvider = "getTestData")
+	public void executeTreeTypesOfLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	@Test(priority =13)
@@ -144,11 +149,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 16)
-	public void executeTreeTraversalLinkTryHere() {
+	@Test(priority = 16, dataProvider = "getTestData")
+	public void executeTreeTraversalLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver,value);	
 	}
 	
 	
@@ -176,11 +181,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority =20)
-	public void executeTreeIllustrationLinkTryHere() {
+	@Test(priority =20, dataProvider = "getTestData")
+	public void executeTreeIllustrationLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	@Test(priority =21)
@@ -206,11 +211,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 24)
-	public void executeTreeBinaryTreeLinkTryHere() {
+	@Test(priority = 24, dataProvider = "getTestData")
+	public void executeTreeBinaryTreeLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver,value);	
 	}
 	
 	
@@ -239,11 +244,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority =28)
-	public void executeTreeTypesBinaryLinkTryHere() {
+	@Test(priority =28, dataProvider = "getTestData")
+	public void executeTreeTypesBinaryLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	@Test(priority =29)
@@ -271,11 +276,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 32)
-	public void executeTreeImplPythonLinkTryHere() {
+	@Test(priority = 32, dataProvider = "getTestData")
+	public void executeTreeImplPythonLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	
@@ -306,11 +311,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority =36)
-	public void executeTreeBinaryTraversalLinkTryHere() {
+	@Test(priority =36, dataProvider = "getTestData")
+	public void executeTreeBinaryTraversalLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	
@@ -340,11 +345,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 40)
-	public void executeTreeImplBinaryLinkTryHere() {
+	@Test(priority = 40, dataProvider = "getTestData")
+	public void executeTreeImplBinaryLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	
@@ -376,11 +381,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority =44)
-	public void executeTreeTreeApplBinaryLinkTryHere() {
+	@Test(priority =44,dataProvider = "getTestData")
+	public void executeTreeTreeApplBinaryLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver,value);	
 	}
 	
 	
@@ -409,11 +414,11 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 48)
-	public void executeTreeBinarySearchLinkTryHere() {
+	@Test(priority = 48,dataProvider = "getTestData")
+	public void executeTreeBinarySearchLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver,value);	
 	}
 	
 	
@@ -442,11 +447,14 @@ public class TreeTestCases extends BaseCases {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 52)
-	public void executeTreeimplBinSearchLinkTryHere() {
+	
+	
+	@Test(priority = 52, dataProvider = "getTestData")
+	public void executeTreeimplBinSearchLinkTryHere(String value) {
 			
+		System.out.println("555555555555555555555555555555555555555"+value);
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver,value);	
 	}	
 
 	
@@ -458,19 +466,14 @@ public class TreeTestCases extends BaseCases {
 		treePageObject.click_practice_quest_Link();
 		String title = driver.getTitle();
 		Assert.assertEquals("Practice Questions", title);
-	}
-
-	
+	}	
 	
 	
 	@AfterClass
 	public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
 		homeObject.clickLogout();
-		driver.quit();
 	}
 	
-	
-
 
 }

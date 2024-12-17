@@ -2,10 +2,11 @@ package tests;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-
+import org.testng.annotations.DataProvider;
 
 import pageObject.LoginPageObject;
 import pageObject.TryEditorPageObject;
@@ -26,25 +27,25 @@ public class TryEditorCases {
 		pageEle = new TryEditorPageObject(driver);		
 		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
-		xcelRead = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\tryeditordata.xlsx");
-		System.out.println("LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"+ xcelRead);
+		
+		
 	}	
 	
-	public void setTextAreaStatement(String SheetName, Integer rowNo) {
+	public void setTextAreaStatement(String value) {
 				
-		dataList = xcelRead.getData(SheetName);
-		System.out.println("JJJJJJJJJJJJJJJJJJJJJJJJJ"+dataList.size());
+//		dataList = xcelRead.getData(SheetName);
+//		System.out.println("JJJJJJJJJJJJJJJJJJJJJJJJJ"+dataList.size());
+//		
+//		data =  (ArrayList) dataList.get(rowNo);
+//		System.out.println("datadatadatadatadatadatadatadatadatadatadata"+data.size());
+//		
+//		
+//		String statement = (String) data.get(0);
 		
-		data =  (ArrayList) dataList.get(rowNo);
-		System.out.println("datadatadatadatadatadatadatadatadatadatadata"+data.size());
+		System.out.println("99999999999999999999999999999999statementstatementstatementstatement"+value);
 		
 		
-		String statement = (String) data.get(0);
-		
-		System.out.println("statementstatementstatementstatementstatementstatementstatement"+statement);
-		
-		
-		pageEle.setTextAreaValue(statement);
+		pageEle.setTextAreaValue(value);
 		
 	}
 
@@ -54,14 +55,16 @@ public class TryEditorCases {
 	public void clicksRunButton() {
 		pageEle.clickRun();
 	}
-
 	
-	public void executeTryEditor(WebDriver driver)
+	
+	
+	public void executeTryEditor(WebDriver driver, String Value )
 	{
 		TryEditorCases tryEditor = new TryEditorCases();
 		try {
 			tryEditor.setUpTryEditor(driver);
-			tryEditor.setTextAreaStatement("Sheet1", 0);
+			System.out.println("TRTTTTRRRRRRRRRRRRRRRRRRRRRRRRRR"+Value);
+			tryEditor.setTextAreaStatement(Value);
 			tryEditor.clicksRunButton();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

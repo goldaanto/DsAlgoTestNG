@@ -19,7 +19,7 @@ import util.ExcelReader;
 public class LinkedListCases extends BaseCases{
 
 	LinkedListPageObject llPageObject = null;	
-	WebDriver driver = null;
+	
 	LoginPageObject loginObject = null;
 	ExcelReader reader = null;
 	ExcelReader xcelReader = null;
@@ -29,8 +29,6 @@ public class LinkedListCases extends BaseCases{
 	@BeforeClass
 	public void setUp() {	
 
-		driver = new ChromeDriver();
-		
 		llPageObject = new LinkedListPageObject(driver);
 		homeObject = new Homepageobject(driver);
 		login(driver);
@@ -68,11 +66,11 @@ public class LinkedListCases extends BaseCases{
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 4)
-	public void executeSubIntroductionLinkTryHere() {
+	@Test(priority = 4, dataProvider = "getTestData")
+	public void executeSubIntroductionLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 
 
@@ -101,11 +99,11 @@ public class LinkedListCases extends BaseCases{
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 8)
-	public void executeSubCreatingLinkTryHere() {
+	@Test(priority = 8, dataProvider = "getTestData")
+	public void executeSubCreatingLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 
 	@Test(priority = 9)
@@ -131,11 +129,11 @@ public class LinkedListCases extends BaseCases{
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 12)
-	public void executeSubTypesOfLinkTryHere() {
+	@Test(priority = 12, dataProvider = "getTestData")
+	public void executeSubTypesOfLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 
 	@Test(priority = 13)
@@ -163,11 +161,11 @@ public void clicksSubImplementLinkTryHere() {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 16)
-	public void executeSubImplementLinkTryHere() {
+	@Test(priority = 16, dataProvider = "getTestData")
+	public void executeSubImplementLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	
 	@Test(priority = 17)
@@ -197,11 +195,11 @@ public void clicksSubTraversalLinkTryHere() {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 20)
-	public void executeSubTraversalLinkTryHere() {
+	@Test(priority = 20, dataProvider = "getTestData")
+	public void executeSubTraversalLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 
 
@@ -229,11 +227,11 @@ public void clicksSubInsertLinkTryHere() {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 24)
-	public void executeInsertOfLinkTryHere() {
+	@Test(priority = 24, dataProvider = "getTestData")
+	public void executeInsertOfLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 
 	@Test(priority =25)
@@ -260,11 +258,11 @@ public void clicksSubDeleteLinkTryHere() {
 		Assert.assertEquals("Assessment", title);
 	}
 	
-	@Test(priority = 28)
-	public void executeSubDeleteLinkTryHere() {
+	@Test(priority = 28, dataProvider = "getTestData")
+	public void executeSubDeleteLinkTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 
 	@Test(priority = 29)
@@ -281,8 +279,7 @@ public void clicksSubDeleteLinkTryHere() {
 	@AfterClass
 public void user_clicks_on_logout_link() {
 		driver.get(getUrlHome());
-		homeObject.clickLogout();
-		driver.quit();
+		homeObject.clickLogout();		
 }
 	
 

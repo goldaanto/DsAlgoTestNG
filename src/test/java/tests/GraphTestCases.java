@@ -10,22 +10,19 @@ import org.testng.annotations.Test;
 
 import pageObject.GraphPageObject;
 import pageObject.Homepageobject;
+import util.ConstantsFile;
 
 
 public class GraphTestCases extends BaseCases {
 	
-	WebDriver driver = null;
 	GraphPageObject graphPageObject = null;
 
 @BeforeClass
 public void graphSetup() {
-	
-	//driver = getDriver();
-	driver = new ChromeDriver();
+		
 	graphPageObject = new GraphPageObject(driver);
 	homeObject = new Homepageobject(driver);
 	login(driver);
-	
    
 }
 
@@ -57,14 +54,14 @@ public void clicksGraphLinkTryHere() {
 	
 	graphPageObject.clickTryLink();
 	String title = graphPageObject.getTitle();
-	Assert.assertEquals("Assessment", title);
+	Assert.assertEquals(ConstantsFile.ASSESSMENT, title);
 }
 
-@Test(priority = 4)
-public void executeGraphLinkTryHere() {
-		
+@Test(priority = 4, dataProvider = "getTestData")
+public void executeGraphLinkTryHere(String value) {
+	System.out.println("YYYYYYYYYYYYYYYYYYYYYYYYY"+value);
 	TryEditorCases tryEditor = new TryEditorCases();
-	tryEditor.executeTryEditor(driver);	
+	tryEditor.executeTryEditor(driver, value);	
 }
 
 @Test(priority = 5)
@@ -87,14 +84,14 @@ public void clicksGraphRepresentLinkTryHere() {
 	
 	graphPageObject.clickTryLink();
 	String title = graphPageObject.getTitle();
-	Assert.assertEquals("Assessment", title);
+	Assert.assertEquals(ConstantsFile.ASSESSMENT, title);
 }
 
-@Test(priority = 8)
-public void executeGraphRepresentLinkTryHere() {
-		
+@Test(priority = 8, dataProvider = "getTestData")
+public void executeGraphRepresentLinkTryHere(String value) {
+	System.out.println("YYYYYYYYYYYYYYYYYYYYYYYYY"+value);	
 	TryEditorCases tryEditor = new TryEditorCases();
-	tryEditor.executeTryEditor(driver);	
+	tryEditor.executeTryEditor(driver, value);	
 }
 
 @Test(priority = 9)
@@ -105,7 +102,7 @@ public void user_clicks_on_graph_practice_test_link() {
 	graphPageObject.clickPracticeLink();
 	
 	String title = graphPageObject.getTitle();
-	Assert.assertEquals("Practice Questions", title);
+	Assert.assertEquals(ConstantsFile.PRACTICEQUEST, title);
 	
 }
 
@@ -114,7 +111,7 @@ public void user_clicks_on_graph_practice_test_link() {
 public void user_clicks_on_logout_link() {
 	driver.get(getUrlHome());
 	homeObject.clickLogout();
-	driver.quit();
+	
 }
 
 

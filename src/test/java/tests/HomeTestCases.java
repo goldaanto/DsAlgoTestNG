@@ -1,7 +1,6 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -9,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pageObject.Homepageobject;
-
+import util.ConstantsFile;
 import util.ExcelReader;
 
 
@@ -20,14 +19,14 @@ public class HomeTestCases extends BaseCases {
 	private Homepageobject homeObject = null;
 	String urlhomestr = null;
 	ExcelReader reader = null;
-	WebDriver driver = null;
+	
 	
 	@BeforeClass
 	public void setUp() {
 		
 		reader = new ExcelReader();
 		urlhomestr = getUrlHome();
-		driver = new ChromeDriver();
+		
 		//login(driver);
 		driver.get(urlhomestr);
 		
@@ -120,7 +119,7 @@ public class HomeTestCases extends BaseCases {
 		driver.get(urlhomestr);
 		homeObject.dataGetStarted();
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "Data Structures-Introduction");
+		Assert.assertEquals(title, ConstantsFile.DSINTRO);
 		
 	}	
 	
@@ -130,7 +129,7 @@ public class HomeTestCases extends BaseCases {
 		driver.get(urlhomestr);
 		homeObject.arrayGetStarted();
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "Array");
+		Assert.assertEquals(title, ConstantsFile.ARRAY);
 	}
 
 	@Test(priority = 13)
@@ -138,7 +137,7 @@ public class HomeTestCases extends BaseCases {
 		driver.get(urlhomestr);
 		homeObject.linkedGetStarted();
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "Linked List");		
+		Assert.assertEquals(title, ConstantsFile.LINKEDLIST);		
 	}
 	
 	@Test(priority = 14)
@@ -146,7 +145,7 @@ public void checkStackGetStartedButton() {
 		driver.get(urlhomestr);
 	homeObject.stackGetStarted();
 	String title = driver.getTitle();
-	Assert.assertEquals(title, "Stack");
+	Assert.assertEquals(title, ConstantsFile.STACK);
    
 }
 	@Test(priority = 15)
@@ -155,7 +154,7 @@ public void checkQueueGetStartedButton() {
 		
 	homeObject.queueGetStarted();
 	String title = homeObject.getTitle();
-	Assert.assertEquals(title, "Queue");
+	Assert.assertEquals(title, ConstantsFile.QUEUE);
 }
 	
 	@Test(priority = 16)	
@@ -163,14 +162,14 @@ public void checkTreeGetStartedButton() {
 		driver.get(urlhomestr);
 	homeObject.treeGetStarted();
 	String title = homeObject.getTitle();
-	Assert.assertEquals(title, "Tree");
+	Assert.assertEquals(title,ConstantsFile.TREE );
 }
 	@Test(priority = 17)
 public void checkGraphGetStartedButton() {
 		driver.get(urlhomestr);
 	homeObject.graphGetStarted();
 	String title = homeObject.getTitle();
-	Assert.assertEquals(title, "Graph");
+	Assert.assertEquals(title, ConstantsFile.GRAPH);
     
 }
 
@@ -180,7 +179,7 @@ public void checkGraphGetStartedButton() {
 public void user_clicks_on_logout_link() {
 		driver.get(urlhomestr);
 	homeObject.clickLogout();
-	driver.quit();
+	
 }
 
 

@@ -5,11 +5,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+
+import org.testng.annotations.DataProvider;
 
 import io.qameta.allure.Allure;
 import pageObject.Homepageobject;
@@ -17,14 +18,16 @@ import pageObject.LoginPageObject;
 import util.ExcelReader;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class BaseCases {
 	
 	public static WebDriver driver = null;
-	public static WebDriver driver2 = null;
+	
 	LoginPageObject loginObject = null;
 	public ExcelReader reader = null;
-	ExcelReader xcelReader = null;
+	ExcelReader xcelRead = null;
 	private static String urlhomestr = null;
 	Homepageobject homeObject = null;
 	static String username = null;
@@ -38,8 +41,8 @@ public class BaseCases {
 		
 		
 		System.out.println("driverdriverdriverdriverdriver"+driver);
-		System.out.println("driverdriverdriverdriverdriver"+driver2);
-		reader = new ExcelReader();			
+		reader = new ExcelReader();	
+		
 		urlhomestr = reader.getProperty("URLHOME");
 		username = reader.getProperty("USERNAME");
 		password = reader.getProperty("PASSWORD");
@@ -79,9 +82,21 @@ public class BaseCases {
 		return urlhomestr;
 	}
 	
+	@DataProvider
+	public Iterator<Object[]>getTestData()
+	{
+		xcelRead = new ExcelReader(System.getProperty("user.dir")+"\\TestData\\\\tryeditordata.xlsx");
+		ArrayList<Object[]> dataList = xcelRead.getTryEditorValue("Sheet1");
+		
+		System.out.println("!!!!!!!!!!!!!!!!!!!!!!Iterator<ArrayList>getTestData"+dataList.size());
+		return dataList.iterator();
+	}
+	
+	
 	public String failedTestShot(String methodname)
 	{
 		String filepath = null;
+		System.out.println();
 		File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		// String screenshotBase64 = ((TakesScreenshot) element).getScreenshotAs(OutputType.BASE64);
@@ -101,11 +116,11 @@ public class BaseCases {
 	
 	
 	
-	@AfterClass
+	@AfterSuite
 	public void tearDown()
 	{
 		System.out.println("AfterSuiteAfterSuiteAfterSuiteAfterSuiteAfterSuiteAfterSuiteAfterSuite");
-		//driver.quit();
+		driver.quit();
 	}
 
 }

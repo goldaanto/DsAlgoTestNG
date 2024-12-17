@@ -5,14 +5,14 @@ import java.util.Iterator;
 
 import org.openqa.selenium.WebDriver;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Test;
 
 import pageObject.Homepageobject;
@@ -27,13 +27,13 @@ public class LoginTesCases extends BaseCases {
 	ExcelReader reader = null;
 	Homepageobject homeObject = null;
 	String urlhomestr = null;
-	WebDriver driver = null;
+	
 
 	@BeforeClass
 	public void setUp()
 	{
 		System.out.println("InsideLogin InsideLoginInsideLoginInsideLogin");
-		//driver = new ChromeDriver();
+		
 		
 		
 		System.out.println("driver in LoginTestcases"+ driver);
@@ -72,27 +72,29 @@ public class LoginTesCases extends BaseCases {
 
 	}
 
-	//	@Test(priority=2)
-	//	public void clickRegisterLink()
-	//	{
-	//		pageObject.clickRegisterLink();
-	//		Assert.assertEquals(driver.getTitle(), "Registration");
-	//
-	//	}
+		@Test(priority=2)
+		public void clickRegisterLink()
+		{
+			pageObject.clickRegisterLink();
+			Assert.assertEquals(driver.getTitle(), "Registration");
 	
-//	@DataProvider
-//	public Iterator<Object[]>getTestData()
-//	{
-//		System.out.println("!!!!!!!!!!!!!!!!!!!!!!Iterator<ArrayList>getTestData");
-//		ArrayList<Object[]> dataList = reader.getProviderData("Sheet1");
-//		return dataList.iterator();
-//	}
+		}
+	
+	@DataProvider
+	public Iterator<Object[]>getTestUserData()
+	{
+		System.out.println("!!!!!!!!!!!!!!!!!!!!!!Iterator<ArrayList>getTestData");
+		ArrayList<Object[]> dataList = reader.getProviderUserData("Sheet1");
+		System.out.println("7777777777777777777777777777"+dataList.iterator());
+		
+		return dataList.iterator();
+	}
 
 	
 	
-	@Test(priority=3)
+	@Test(priority=3, dataProvider ="getTestUserData")
 	public void checkInvalidUsernamePassword(String username,String pass) throws InterruptedException {
-		System.out.println("!!!!!!!!!!!!!!!!!!!!!!checkInvalidUsernamePassword");
+		System.out.println("!!!!!!!!!!!!!!!!!!!!!!checkInvalidUsernamePassword"+ username+pass);
 		pageObject.setUsername(username);
 		pageObject.setPassword(pass);
 		pageObject.clickLogin();
@@ -110,13 +112,7 @@ public class LoginTesCases extends BaseCases {
 
 	}
 
-	@AfterClass
-	public void user_clicks_on_logout_link() {
-		driver.get(urlhomestr);
-		homeObject.clickLogout();
-		driver.quit();
-	}
-
+	
 
 
 }

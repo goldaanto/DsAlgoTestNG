@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite1"  thread-count = "5" parallel="classes" >
+<suite name="Suite1"   >
 
 	
 	
@@ -17,17 +17,6 @@
 			<class name="tests.HomeTestCases"></class>
 			<class name="tests.DSIntroTestCases"></class>
 			<class name="tests.ArraysTestCases"></class>
-			
-			
-			
-		</classes>	
-		</test>		
-		
-	<test  name="TestChrome1"  >
-		<parameter name="browser" value="chrome" />
-		<classes>	
-
-			
 			<class name="tests.LinkedListCases"></class>
 			<class name="tests.StackTestcases"></class>
 			<class name="tests.QueueTestcases"></class>
@@ -35,8 +24,11 @@
 			<class name="tests.GraphTestCases"></class>
 			
 			
+			
 		</classes>	
 		</test>		
+		
+	
 
 </suite>
 

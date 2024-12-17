@@ -14,7 +14,7 @@ import util.ExcelReader;
 
 public class StackTestcases extends BaseCases {
 	Stackpageobject Spageobject = null;
-	WebDriver driver = null;
+	
 	LoginPageObject loginObject = null;
 	ExcelReader reader = null;
 	ExcelReader xcelReader = null;
@@ -24,7 +24,6 @@ public class StackTestcases extends BaseCases {
 	@BeforeClass
 	public void setUp() {
 		
-		//driver = new ChromeDriver();
 		Spageobject = new Stackpageobject(driver);
 		homeObject =new Homepageobject(driver);
 		login(driver);
@@ -51,11 +50,11 @@ public void operationtryhere() {
 	Assert.assertEquals("Assessment", title);
 	
 }
-@Test(priority = 3)
-public void executeoperationsTryHere() {
+@Test(priority = 3, dataProvider = "getTestData")
+public void executeoperationsTryHere(String value) {
 		
 	TryEditorCases tryEditor = new TryEditorCases();
-	tryEditor.executeTryEditor(driver);	
+	tryEditor.executeTryEditor(driver, value);	
 }
 
 	@Test(priority =4)
@@ -74,11 +73,11 @@ public void executeoperationsTryHere() {
 		Assert.assertEquals("Assessment", title);
 		
 	}
-	@Test(priority = 6)
-	public void executeImplementationTryHere() {
+	@Test(priority = 6, dataProvider = "getTestData")
+	public void executeImplementationTryHere(String value) {
 			
 		TryEditorCases tryEditor = new TryEditorCases();
-		tryEditor.executeTryEditor(driver);	
+		tryEditor.executeTryEditor(driver, value);	
 	}
 	@Test(priority =7)
 	public void Applications() {
@@ -96,11 +95,11 @@ public void executeoperationsTryHere() {
 			Assert.assertEquals("Assessment", title);
 		}
 		
-   @Test(priority = 9)
-		public void executeApplicationsTryHere() {
+   @Test(priority = 9, dataProvider = "getTestData")
+		public void executeApplicationsTryHere(String value) {
 				
 			TryEditorCases tryEditor = new TryEditorCases();
-			tryEditor.executeTryEditor(driver);	
+			tryEditor.executeTryEditor(driver, value);	
 		}
    @Test(priority = 10)
 	public void userclickspractice_question_link() {
@@ -114,8 +113,7 @@ public void executeoperationsTryHere() {
   @AfterClass
    public void user_clicks_on_logout_link() {
    		driver.get(getUrlHome());
-   		homeObject.clickLogout();
-   		driver.quit();
+   		homeObject.clickLogout();   		
    }
 
 }

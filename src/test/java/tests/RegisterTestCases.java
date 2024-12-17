@@ -46,8 +46,11 @@ public class RegisterTestCases  {
 		ArrayList<Object> data =  (ArrayList<Object>) dataList.get(rowNum);
 		
 		String username = (String) data.get(0);
+		System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBB"+username);
 		String password = (String) data.get(1);
+		System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBB"+password);
 		String cnfPassword = (String) data.get(2);	
+		System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBB"+cnfPassword);
 		pageObject.setUserName(username);
 		pageObject.setPassword1(password);
 		pageObject.setPassword2(cnfPassword);
